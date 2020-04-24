@@ -1,0 +1,1043 @@
+{
+    "paper_id": "0ef5e0739164ebee89d33d6fa1294aedf1d6d961",
+    "metadata": {
+        "title": "",
+        "authors": [
+            {
+                "first": "Lauren",
+                "middle": [
+                    "Ancel"
+                ],
+                "last": "Meyers",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "The University of Texas at Austin",
+                    "location": {}
+                },
+                "email": "laurenmeyers@gmail.com"
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Without a coordinated state or federal response to COVID-19 across the United States, counties are left to weigh the potentially large yet unseen threat of COVID-19 with the economic and societal costs of enacting strict social distancing measures. The immediate and long-term risk of the virus can be difficult to grasp, given the lack of historical precedent and that many cases go undetected. We calculated the risk that there already is sustained community transmission that has not yet been detected. Given the low testing rates throughout the country, we assume that one in ten cases are tested and reported. If a county has detected only one case of COVID-19, there is a 51% chance that there is already a growing outbreak underway. COVID-19 is likely spreading in 72% of all counties in the US, containing 94% of the national population. Proactive social distancing, even before two cases are confirmed, is prudent.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The unprecedented threat of COVID-19 could kill hundreds of thousands to millions of Americans (1, 2) . Over the course of a few weeks, it has emerged in all 50 states (3) . The federal government has not issued guidance for aggressive preventative interventions, even before cases rise. State and local officials are struggling to weigh the potentially enormous economic and societal costs of strict social distancing measures against the unseen risks of substantial COVID-19 hospitalizations and mortality in their communities.",
+            "cite_spans": [
+                {
+                    "start": 95,
+                    "end": 98,
+                    "text": "(1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 99,
+                    "end": 101,
+                    "text": "2)",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 168,
+                    "end": 171,
+                    "text": "(3)",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Details"
+        },
+        {
+            "text": "COVID-19 is largely spreading undetected, because of the high proportion of asymptomatic and mild infections and limited laboratory testing capacity (4, 5) . Public health officials are making grave decisions amidst overwhelming uncertainty, and are often waiting for compelling evidence of local transmission prior to issuing social distancing orders. To inform decision-makers, we have estimated the likelihood that each county in the US already has extensive community transmission based on the number of confirmed cases to date.",
+            "cite_spans": [
+                {
+                    "start": 149,
+                    "end": 152,
+                    "text": "(4,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 153,
+                    "end": 155,
+                    "text": "5)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Details"
+        },
+        {
+            "text": "Our approach is based on a tool that we developed to estimate the risk of another silent spreader --Zika--which threatened to emerge in southern states during the 2016 outbreak (6) . These estimates account for under-reporting, the uncertainty in the transmission rate of COVID-19, and the possibility of super-spreading events, as observed for SARS in some recent COVID-19 outbreaks (6, 7) . We also assume that contact rates in the US have been reduced 50% (8, 9) and thus the reproduction number ( R 0 ) has been reduced from 3 to 1.5. (The estimated risks would be even higher for larger reproduction numbers - Figure S1 .) We assume that every county has had at least one undetected case and run stochastic simulations to estimate the true underlying state of the outbreak depending on the number of confirmed cases to date.",
+            "cite_spans": [
+                {
+                    "start": 177,
+                    "end": 180,
+                    "text": "(6)",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 384,
+                    "end": 387,
+                    "text": "(6,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 388,
+                    "end": 390,
+                    "text": "7)",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 459,
+                    "end": 462,
+                    "text": "(8,",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 463,
+                    "end": 465,
+                    "text": "9)",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 615,
+                    "end": 624,
+                    "text": "Figure S1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Details"
+        },
+        {
+            "text": "For counties that have not yet reported a confirmed case, the chance that there is an undetected outbreak underway is 9%. A single detected case of COVID-19 increases that risk to 51%. Overall, 72% of US counties with 94% of the national population have over a 50% chance of ongoing COVID-19 transmission ( Figure 1 ). In Texas specifically, 56% of the counties accounting for 97% of the population have over a 50% chance of ongoing COVID-19 transmission ( Figure 2 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 307,
+                    "end": 315,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 457,
+                    "end": 465,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Details"
+        },
+        {
+            "text": "Although not entirely surprising, these risk estimates provide evidence for policymakers who are still weighing if, when, and how aggressively to enact social distancing measures. It is likely that our entire map will be bright red within a week or two, given that COVID-19 spreads very quickly and often silently (4, 10) . The fate of outbreaks in counties across the US very much hinges on the speed of local interventions. Early and extensive social distancing can block community transmission, avert rises in hospitalizations that overwhelm local capacity, and save lives (11, 12) . This map advocates for the immediate implementation of such measures throughout the US. . CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 314,
+                    "end": 317,
+                    "text": "(4,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 318,
+                    "end": 321,
+                    "text": "10)",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 576,
+                    "end": 580,
+                    "text": "(11,",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 581,
+                    "end": 584,
+                    "text": "12)",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Details"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint . https://doi.org/10.1101/2020.04.06.20053561 doi: medRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Details"
+        },
+        {
+            "text": "We obtained county-level estimates for COVID-19 cases from a data repository curated by the New York Times (13) .",
+            "cite_spans": [
+                {
+                    "start": 107,
+                    "end": 111,
+                    "text": "(13)",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "County data"
+        },
+        {
+            "text": "We adapted the framework in (6) to model COVID-19 in US counties. It assumes a branching process model for early transmission in which the number of secondary infections per infected case is distributed according to a negative binomial distribution to capture occasional superspreading events, as estimated for SARS (7) . We account for imperfect detection and COVID-19 specific epidemiological characteristics (details in Table S1 ).",
+            "cite_spans": [
+                {
+                    "start": 316,
+                    "end": 319,
+                    "text": "(7)",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 423,
+                    "end": 431,
+                    "text": "Table S1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Model"
+        },
+        {
+            "text": "For each county, we run 10,000 stochastic outbreaks beginning with a single undetected case and ending when the cumulative cases reach 500 or the outbreak dies out (whichever comes first). Following (6) , outbreaks that reach 500 cases and reach a minimum prevalence of ten cases in a given day are classified as epidemics. We calculate the probability of sustained community transmission for a given number of detected cases, x , by looking at all outbreaks that had x detected cases, and calculating the proportion of those outbreaks that progressed to epidemics. Future iterations of the model could improve estimates by modeling imported cases between counties, though this addition would only raise the estimated risk across all counties.",
+            "cite_spans": [
+                {
+                    "start": 199,
+                    "end": 202,
+                    "text": "(6)",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Model"
+        },
+        {
+            "text": "Our baseline assumes that the reproduction number ( R 0 ) of COVID-19 is 1.5 (accounting for ongoing social distancing measures across the US) and that 10% of all cases are reported. To assess the impact of these assumptions on our estimates, we conducted a sensitivity analysis that varied R 0 (1.1 and 3) and across a range of reporting rates (5%-40%). Generally, higher transmission rates and lower reporting rates increase the estimated local risk of sustained transmission, while lower transmission rates and higher reporting rates reduce the estimates ( Figure S1 ). R code for number of new infectious individuals drawn daily:",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 560,
+                    "end": 569,
+                    "text": "Figure S1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Sensitivity Analysis"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Sensitivity Analysis"
+        },
+        {
+            "text": "is the (which was not peer-reviewed) The copyright holder for this preprint .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Sensitivity Analysis"
+        },
+        {
+            "text": ": Sensitivity analysis with respect to the reproduction number ( R 0 ) and case detection probability. Percentage of US counties (left) or US population (right) that have greater than a 50% risk for sustained local transmission across varying assumed transmission rates (colors) and case detection probabilities (x-axis).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Figure S1"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Impact of non-pharmaceutical interventions (NPIs) to reduce COVID19 mortality and healthcare demand",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Ferguson",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Laydon",
+                    "suffix": ""
+                },
+                {
+                    "first": "Nedjati",
+                    "middle": [],
+                    "last": "Gilani",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Imai",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ainslie",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Baguelin",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "IHME COVID-19 health service utilization forecasting team, Murray CJL. Forecasting COVID-19 impact on hospital bed-days, ICU-days, ventilator-days and deaths by US state in the next 4 months. medRxiv",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Coast-to-coast spread of SARS-CoV-2 in the United States revealed by genomic epidemiology",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Fauver",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Petrone",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Hodcroft",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Shioda",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Ehrlich",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Watts",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.03.25.20043828"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Substantial undocumented infection facilitates the rapid dissemination of novel coronavirus (COVID-19)",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Pei",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.02.14.20023127"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Assessing real-time Zika risk in the United States",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Castro",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Fox",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Bellan",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Dimitrov",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "BMC Infect Dis",
+            "volume": "17",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Superspreading and the effect of individual variation on disease emergence",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Lloyd-Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Schreiber",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Kopp",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Getz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Nature",
+            "volume": "438",
+            "issn": "7066",
+            "pages": "355--364",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Interventions to mitigate early spread of SARS-CoV-2 in Singapore: a modelling study",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Koo",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Cook",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Lim",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Lancet Infect Dis",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Assessing changes in commuting and individual mobility in major metropolitan areas in the United States during the COVID-19 outbreak",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Klein",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Larock",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Mccabe",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Torres",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Privitera",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Lake",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "The serial interval of COVID-19 from publicly reported confirmed cases. medRxiv",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Cowling",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Meyers",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Impact assessment of non-pharmaceutical interventions against COVID-19 and influenza in Hong Kong: an observational study",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Cowling",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Ali",
+                    "suffix": ""
+                },
+                {
+                    "first": "Twy",
+                    "middle": [],
+                    "last": "Ng",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Tsang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jcm",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Fong",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.03.12.20034660"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "The effect of travel restrictions on the spread of the 2019 novel coronavirus (COVID-19) outbreak. Science [Internet",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Chinazzi",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Davis",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ajelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Gioannini",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Litvinova",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Merler",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1126/science.aba9757"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "The New York Times Coronavirus (Covid-19) Data in the United States",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Yourish",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Almukhtar",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Collins",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Ivory",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Harmon",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Transmission potential and severity of COVID-19 in South Korea",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Shim",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Tariq",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Choi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Chowell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int J Infect Dis",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ijid.2020.03.031"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Temporal dynamics in viral shedding and transmissibility of COVID-19",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ehy",
+                    "middle": [],
+                    "last": "Lau",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Deng",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Hao",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.03.15.20036707"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Analysis of 391 cases and 1,286 of their close contacts",
+            "authors": [],
+            "year": null,
+            "venue": "COVID-19 in",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.03.03.20028423"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Estimating unobserved SARS-CoV-2 infections in the United States",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Perkins",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Cavany",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Moore",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Oidtman",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Lerch",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Poterek",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.03.15.20036582"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Probability of ongoing COVID-19 outbreaks for the 3142 counties in the United States. The chance of an unseen outbreak in a county without any reported cases is 9%. A single reported case suggests that community transmission is likely.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Probability of ongoing COVID-19 outbreaks for the 254 counties in the United States. The chance of an unseen outbreak in a county without any reported cases is 9%. A single reported case suggests that community transmission is likely.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Model parameters used for simulating county COVID-19 outbreaksIncubation rate: Daily probability of progressing from one exposed compartment to the next 0.80 Fit to T G",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

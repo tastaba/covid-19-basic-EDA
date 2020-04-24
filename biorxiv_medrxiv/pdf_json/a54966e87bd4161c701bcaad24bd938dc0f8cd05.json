@@ -1,0 +1,1852 @@
+{
+    "paper_id": "a54966e87bd4161c701bcaad24bd938dc0f8cd05",
+    "metadata": {
+        "title": "The severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) envelope (E) protein harbors a conserved BH3-like motif",
+        "authors": [
+            {
+                "first": "Vincent",
+                "middle": [],
+                "last": "Navratil",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Universit\u00e9 de Lyon",
+                    "location": {
+                        "postCode": "Lyon1",
+                        "settlement": "Lyon",
+                        "country": "France"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Lo\u00efc",
+                "middle": [],
+                "last": "Lionnard",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "UMR 5554",
+                    "institution": "EPHE",
+                    "location": {
+                        "addrLine": "Place Eug\u00e8ne Bataillon",
+                        "postCode": "34095",
+                        "settlement": "Montpellier",
+                        "region": "IRD",
+                        "country": "France"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Sonia",
+                "middle": [],
+                "last": "Longhi",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "UMR 7257",
+                    "institution": "CNRS and Aix-Marseille Univ",
+                    "location": {
+                        "settlement": "Marseille",
+                        "country": "France"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Christophe",
+                "middle": [],
+                "last": "Combet",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "UMR Inserm U1052",
+                    "institution": "Universit\u00e9 Claude Bernard Lyon 1",
+                    "location": {
+                        "settlement": "Lyon",
+                        "country": "France"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Abdel",
+                "middle": [],
+                "last": "Aouacheria",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "UMR 5554",
+                    "institution": "EPHE",
+                    "location": {
+                        "addrLine": "Place Eug\u00e8ne Bataillon",
+                        "postCode": "34095",
+                        "settlement": "Montpellier",
+                        "region": "IRD",
+                        "country": "France"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "A b s t r a c t a critical virulence factor not only in SARS-CoV but also in the case of the new coronavirus SARS-CoV-2. Ectopic expression of SARS-CoV E was previously shown to trigger apoptosis (cell suicide) of T lymphocytes, lymphopenia being a common feature observed in fatal cases following viral infections. Importantly, T-cell apoptosis was shown to involve interaction between the C-terminal region of SARS-CoV E and the Bcl-2 family member Bcl-xL, which acts as a potent anti-apoptotic protein.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Here we provide the first observation that the SARS-CoV E and SARS-CoV-2 E proteins share a conserved Bcl-2",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Homology 3 (BH3)-like motif in their C-terminal region, a well-studied motif shown to be necessary for SARS-CoV E binding to Bcl-xL. We used available sequence data for SARS-CoV-2 and related coronaviruses, in combination with structural information, to study the structure to biological activity relationships of SARS-CoV-2 E in relation with its BH3-like motif. Our analysis of the SARS-CoV E interactome further revealed that the predicted SARS-CoV-2 network is extensively wired to the Bcl-2 apoptotic switch.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Research is therefore needed to establish if SARS-CoV-2 E targets prosurvival Bcl-2 homologs to modulate cell viability, as part of a coronavirus strategy to interfere with apoptosis. The identification of small molecules (or the repurposing of existing drugs) able to disrupt SARS-CoV-2 E BH3-mediated interactions might provide a targeted therapeutic approach for COVID-19 treatment. Recombinant SARS-CoV-2 expressing an E protein with a deleted or mutated BH3-like motif might also be of interest for the design of a live, attenuated vaccine. (7)). Recent biochemical and structural data revealed that SARS-CoV E is a viroporin endowed with ion channel and membrane-permeabilizing activities (8) , forming homopentameric transmembrane \u03b1-helical bundles in lipid bilayers (9) . This protein is abundant in infected cells where it plays a crucial role in viral particle assembly (10, 11) .",
+            "cite_spans": [
+                {
+                    "start": 695,
+                    "end": 698,
+                    "text": "(8)",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 774,
+                    "end": 777,
+                    "text": "(9)",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 880,
+                    "end": 884,
+                    "text": "(10,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 885,
+                    "end": 888,
+                    "text": "11)",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Compared to wild-type controls, recombinant coronaviruses lacking the E gene have significantly lower viral titers and reduced viral maturation and propagation (12) (13) (14) . Edeficient SARS-CoV is also attenuated in vivo, exhibiting diminished pathogenic effects (15, 16) and inability to grow in the central nervous system (17) , suggesting that CoV E may act as an important virulence factor in coronaviruses. The C-terminal region of SARS-CoV E is mostly \u03b1-helical (9) and harbors at its extremity a so-called (PSD95/DLG1/ZO-1) PDZ-binding motif (PBM) (18) that was identified as a critical virulence determinant (19) . PDZ are common globular domains that interact with short linear motifs (SLiMs) usually present at the C-terminus of their target proteins and prevalent within intrinsically disordered regions (20) . Through its C-terminal PBM, SARS-CoV E was shown to engage into interactions with multiple host proteins such as syntenin (19) and PALS1 (18) . In order to gain insight into the conservation and evolution of CoV E BH3-like sequences, we performed multiple sequence alignments starting with the closest relatives to the reference sequence in terms of phylogenetic proximity (betacoronaviruses) (Fig. 2 ) and",
+            "cite_spans": [
+                {
+                    "start": 160,
+                    "end": 164,
+                    "text": "(12)",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 165,
+                    "end": 169,
+                    "text": "(13)",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 170,
+                    "end": 174,
+                    "text": "(14)",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 266,
+                    "end": 270,
+                    "text": "(15,",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 271,
+                    "end": 274,
+                    "text": "16)",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 327,
+                    "end": 331,
+                    "text": "(17)",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 619,
+                    "end": 623,
+                    "text": "(19)",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 818,
+                    "end": 822,
+                    "text": "(20)",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 947,
+                    "end": 951,
+                    "text": "(19)",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 962,
+                    "end": 966,
+                    "text": "(18)",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1218,
+                    "end": 1225,
+                    "text": "(Fig. 2",
+                    "ref_id": "FIGREF5"
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "adding more dissimilar sequences from the three other genera of Orthocoronavirinae (alpha-, gamma-and deltacoronaviruses). CoV E protein sequences were found in all clades but with various levels of similarity in the C-terminal domain where the BH3-like motif occurs (Fig. 3 ). Based on the amino acid sequences of the BH3-like region, we analyzed the phylogenetic relationships between the CoV E proteins from SARS-CoV-2 and other coronaviruses derived from various species (Fig. 4) . CoV E sequences from gammacoronavirus rooted the phylogenetic tree, providing evidence that their BH3-like region is more distantly related to the reference ZJ01 sequence than the homologous region from the other coronavirus genera (i.e., alpha-and deltacoronaviruses).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 267,
+                    "end": 274,
+                    "text": "(Fig. 3",
+                    "ref_id": "FIGREF6"
+                },
+                {
+                    "start": 475,
+                    "end": 483,
+                    "text": "(Fig. 4)",
+                    "ref_id": "FIGREF7"
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "Deltacoronavirus sequences were found to be more akin to sequences from betacoronaviruses than alphacoronavirus sequences. SARS-CoV-2 E sequence clusters with bat CoV isolate RaTG13 and pangolin CoV isolate Guangdong, within a group (100% bootstrap support) comprising the reference ZJ01 sequence, other bat-SARS-like coronaviruses and isolate 007/2004 derived from civet. This result has been initially viewed as being indicative of coronavirus crossing of the animal-human species barrier (3, 4, 29) , with bats as reservoir hosts and pangolins as intermediate hosts facilitating",
+            "cite_spans": [
+                {
+                    "start": 491,
+                    "end": 494,
+                    "text": "(3,",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 495,
+                    "end": 497,
+                    "text": "4,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 498,
+                    "end": 501,
+                    "text": "29)",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "SARS-CoV-2 transfer to humans, although sampling bias (i.e., under coverage of author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.04.09.033522 doi: bioRxiv preprint coronavirus diversity in other species) may obscure this interpretation (2) . Sequences from other human coronaviruses of zoonotic origin (human CoV OC43, 4408, HKU1 and MERS) fell into distinct phylogenetic clades with high probability values.",
+            "cite_spans": [
+                {
+                    "start": 214,
+                    "end": 217,
+                    "text": "(2)",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Motif-based sequence analysis suggested that coronaviruses have evolved a conserved and specific BH3-like motif (data not shown). Instead of conforming to the L 1 -X 2 -X 3 -X 4 -X 5 -D 6 core pattern (with conserved leucine and aspartic acid residues) characteristic of most BH3 sequences (22, 25) , the BH3 signature inferred from betacoronavirus E sequences is atypical and reads as L 1 -X 2 -X 3 -P 4 -X 5 -\u03c6 6 -\u03a9 7 -\u03c6 8 -\u03a9 9 (with \u03c6 indicating a preference for aliphatic residues and \u03a9 for aromatic residues) (see logo analysis in Fig. 2, bottom) . 5A ) and the derived structural model (Fig. 5B) , position of Leu51 is clearly interhelical whereas the highly conserved Pro54 residue is located at the beginning of the terminal \u03b1-helix. Except for Tyr57, the BH3-like region (in red) appears to be only marginally involved in the inter-chain interactions needed to form the protein homopentamer (9) . Rather, its external orientation, and extended (i.e. irregular) structure in the homo-pentamer (31) makes the CoV E BH3-like segment highly prone to serve as a small binding interface able to engage in transient interactions with protein partners, as expected for a SLiM (22) . It is possible that the loop that exposes the Leu51 residue may author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [
+                {
+                    "start": 290,
+                    "end": 294,
+                    "text": "(22,",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 295,
+                    "end": 298,
+                    "text": "25)",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 900,
+                    "end": 903,
+                    "text": "(9)",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1177,
+                    "end": 1181,
+                    "text": "(22)",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 536,
+                    "end": 551,
+                    "text": "Fig. 2, bottom)",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 554,
+                    "end": 556,
+                    "text": "5A",
+                    "ref_id": "FIGREF8"
+                },
+                {
+                    "start": 592,
+                    "end": 601,
+                    "text": "(Fig. 5B)",
+                    "ref_id": "FIGREF8"
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.04.09.033522 doi: bioRxiv preprint adopt a regular secondary structure upon binding to targets to form an extended \u03b1-helix, with the conserved Pro54 inducing formation of a \u03c0-helix.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "EpiCoV identified at least 10 mutated positions in the translated E sequences from SARS-CoV-2 isolates (Fig. 5C) , five of them lying in regions known to interact with host proteins: two within the BH3-like core region and three in the PBM. These substitutions were mapped onto the SARS-CoV-2 E structural model (Fig. 5B) . We found that the mutated residues tend to locate on the surface of the protein, in line with previous observations that the hydrophobic core of proteins from RNA viruses shows greater conservation than functional sites on the protein surface (32, 33) . Interestingly, we also detected a partial deletion spanning eight amino acids (including a Cys residue) in a turn present upstream of the BH3-like region. In addition to shortening the transmembrane domain, which may affect subcellular localization (e.g. by enhancing retention in the Golgi (34)), such deletion might interfere with the binding properties of the SARS-CoV-2 E BH3-like motif by introducing local conformational rearrangements.",
+            "cite_spans": [
+                {
+                    "start": 567,
+                    "end": 571,
+                    "text": "(32,",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 572,
+                    "end": 575,
+                    "text": "33)",
+                    "ref_id": "BIBREF32"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 103,
+                    "end": 112,
+                    "text": "(Fig. 5C)",
+                    "ref_id": "FIGREF8"
+                },
+                {
+                    "start": 312,
+                    "end": 321,
+                    "text": "(Fig. 5B)",
+                    "ref_id": "FIGREF8"
+                }
+            ],
+            "section": "Annotation of SARS-CoV-2 E from 3,449 SARS-CoV-2 genomes deposited in GISAID"
+        },
+        {
+            "text": "Last, our analysis of the SARS-CoV-2 interactome using the VirHostNet 2.0 interology webservice (35) (Fig. 6 ) revealed that the predicted SARS-CoV-2 network appears to be wired to the Bcl-2 apoptotic switch by the nonstructural protein NS7a and by protein E.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 101,
+                    "end": 108,
+                    "text": "(Fig. 6",
+                    "ref_id": "FIGREF10"
+                }
+            ],
+            "section": "Annotation of SARS-CoV-2 E from 3,449 SARS-CoV-2 genomes deposited in GISAID"
+        },
+        {
+            "text": "Interestingly, NS7a contacts the five major anti-apoptotic Bcl-2 proteins (Bcl-xL/BCL2L1, BCL2, BCL-w/BCL2L2, MCL-1 and Bfl-1/BCL2A1), suggesting that this protein might act as a universal prosurvival Bcl-2 protein modulator after infection. Because many viruses have evolved strategies to interfere with apoptosis, research is needed to establish if the E protein from SARS-CoV-2 directly or indirectly targets prosurvival Bcl-2 homologs (beyond Bcl-xL) to modulate cell viability. Contradictory results have been published regarding CoV E ability to induce or repress apoptosis. Overexpressed epitope-tagged SARS-CoV E was found to promote apoptotic cell death in the Jurkat cell line (21) , and 17Cl-1 cells infected with the mouse hepatitis virus (MHV) (murine coronavirus) exhibited a higher level of apoptosis (36) . In contrast, cells infected by a coronavirus lacking E (SARS-CoV\u0394E) were more primed for apoptosis than those infected with the wt strain (16) . This latter study also suggested that CoV E may have an anti-apoptotic function by suppressing the Unfolded Protein Response (UPR), likely as a survival mechanism important for virus dissemination. It may well be that CoV E activity could protect cells from cell death at early stages post-infection (by regulating the UPR) and induce apoptosis at a later stage (via Bcl-xL sequestration at the Golgi (21) or through its author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [
+                {
+                    "start": 687,
+                    "end": 691,
+                    "text": "(21)",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 816,
+                    "end": 820,
+                    "text": "(36)",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 961,
+                    "end": 965,
+                    "text": "(16)",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Annotation of SARS-CoV-2 E from 3,449 SARS-CoV-2 genomes deposited in GISAID"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.04.09.033522 doi: bioRxiv preprint viroporin activity). Yang et al. (21) further demonstrated that the interaction of SARS-CoV E with Bcl-xL is mediated by the BH3-like region of SARS-CoV E and the BH3-binding motif of Bcl-xL. Anti-apoptotic Bcl-2 proteins normally accommodate the BH3 motif from typical BH3-only proteins in a hydrophobic receptor cleft present at their surface (25) (26) (27) (28) .",
+            "cite_spans": [
+                {
+                    "start": 175,
+                    "end": 179,
+                    "text": "(21)",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 487,
+                    "end": 491,
+                    "text": "(25)",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 492,
+                    "end": 496,
+                    "text": "(26)",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 497,
+                    "end": 501,
+                    "text": "(27)",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 502,
+                    "end": 506,
+                    "text": "(28)",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Annotation of SARS-CoV-2 E from 3,449 SARS-CoV-2 genomes deposited in GISAID"
+        },
+        {
+            "text": "Hence, it remains to be determined whether SARS-CoV-2 E BH3 could bind in the hydrophobic groove of Bcl-xL or at another, distinct interface. It might also be interesting to assess the ability of BH3-mimetics like ABT-737, which tightly binds to the hydrophobic BH3-binding groove of Bcl-xL (37) , to inhibit binding of SARS-CoV-2 E to Bcl-xL.",
+            "cite_spans": [
+                {
+                    "start": 291,
+                    "end": 295,
+                    "text": "(37)",
+                    "ref_id": "BIBREF36"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Annotation of SARS-CoV-2 E from 3,449 SARS-CoV-2 genomes deposited in GISAID"
+        },
+        {
+            "text": "In conclusion, the SARS-CoV E protein has been reported to interact with the antiapoptotic Bcl-2 family protein Bcl-xL through a BH3-like motif located in its C-terminal portion. Considering the importance of Bcl-2 homologs and BH3-containing proteins in physiopathological settings, the relevance of this interaction and its extrapolation to CoV E from the novel coronavirus SARS-CoV-2 call for an urgent assessment. In particular, ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Annotation of SARS-CoV-2 E from 3,449 SARS-CoV-2 genomes deposited in GISAID"
+        },
+        {
+            "text": "The SARS-CoV-2 E protein has been modeled using M4T (43) and the known 3D structure of SARS-CoV E as template (PDB code: 5X29). The software PyMOL (https://www.pymol.org) was used for preparing the illustrations.",
+            "cite_spans": [
+                {
+                    "start": 52,
+                    "end": 56,
+                    "text": "(43)",
+                    "ref_id": "BIBREF42"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Structural analysis"
+        },
+        {
+            "text": "The predicted protein-protein interaction network of SARS-CoV-2 was constructed by Acknowledgment Table) . The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.04.09.033522 doi: bioRxiv preprint within the BH3-like sequence consensus described in the text). Deleted amino acids from the EPI_ISL_41375225865_26065 translated sequence are colored in white. Other detected point mutations are indicated. Note that the 3D model lacks ten residues at the C-terminus, as they were also absent in 5X29. Thus, mutations detected in the PBM were simply put at the top. (C) Sequence alignment between SARS-CoV-2 E reference sequence and translated short reads from coronavirus genomes. Except for the reference human SARS-CoV-2 E sequence (GenBank accession number YP_0097243921), other sequences with EPI-ISL-* accession numbers (Supplemental Table 2 ) were retrieved from GISAID (https://www.gisaid.org/) (44) and annotated using tblastn. Non-consensus residues (different from the reference SARS-CoV-2 E sequence) are highlighted in red. The deletion of eight residues detected in one putative SARS- author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 83,
+                    "end": 104,
+                    "text": "Acknowledgment Table)",
+                    "ref_id": null
+                },
+                {
+                    "start": 888,
+                    "end": 895,
+                    "text": "Table 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "Interactome analysis"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.04.09.033522 doi: bioRxiv preprint SARS-CoV-2/human interologs are anchored on the known SARS-CoV/human proteinprotein interaction network. Each node corresponds to a pair of homologous proteins: a SARS-CoV homolog (red node) and a human host protein (blue node). Node size is proportional to the number of cellular partners in the infected cell. Each edge in the interolog network represents an interaction conserved in both species (interolog). The ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Interactome analysis"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "A Novel Coronavirus from Patients with Pneumonia in China",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "The New England journal of medicine",
+            "volume": "382",
+            "issn": "",
+            "pages": "727--733",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "The proximal origin of SARS-CoV-2",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Andersen",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Rambaut",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Lipkin",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Holmes",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Garry",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature medicine",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "579",
+            "issn": "",
+            "pages": "270--273",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "A new coronavirus associated with human respiratory disease in China",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "579",
+            "issn": "",
+            "pages": "265--269",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Molecular interactions in the assembly of coronaviruses",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "De Haan",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Rottier",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Adv Virus Res",
+            "volume": "64",
+            "issn": "",
+            "pages": "165--230",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "The molecular biology of coronaviruses",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Masters",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Adv Virus Res",
+            "volume": "66",
+            "issn": "",
+            "pages": "193--292",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Coronavirus envelope protein: current knowledge",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Schoeman",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Fielding",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Virology journal",
+            "volume": "16",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "SARS coronavirus E protein forms cationselective ion channels",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wilson",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Mckinlay",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Gage",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Ewart",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Virology",
+            "volume": "330",
+            "issn": "",
+            "pages": "322--331",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Structural model of the SARS coronavirus E channel in LMPG micelles",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Surya",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Torres",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Biochim Biophys Acta Biomembr",
+            "volume": "1860",
+            "issn": "",
+            "pages": "1309--1317",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Coronavirus envelope protein: a small membrane protein with multiple functions. Cellular and molecular life sciences : CMLS 64",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "2043--2048",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Nucleocapsid-independent assembly of coronavirus-like particles by co-expression of viral envelope protein genes",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Vennema",
+                    "suffix": ""
+                }
+            ],
+            "year": 1996,
+            "venue": "The EMBO journal",
+            "volume": "15",
+            "issn": "",
+            "pages": "2020--2028",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Absence of E protein arrests transmissible gastroenteritis coronavirus maturation in the secretory pathway",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ortego",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Ceriani",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Patino",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Plana",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Enjuanes",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Virology",
+            "volume": "368",
+            "issn": "",
+            "pages": "296--308",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Heterologous gene expression from transmissible gastroenteritis virus replicon particles",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Curtis",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yount",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Baric",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Journal of virology",
+            "volume": "76",
+            "issn": "",
+            "pages": "1422--1434",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Generation of a replication-competent, propagation-deficient virus vector based on the transmissible gastroenteritis coronavirus genome",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ortego",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Escors",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Laude",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Enjuanes",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Journal of virology",
+            "volume": "76",
+            "issn": "",
+            "pages": "11518--11529",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "A severe acute respiratory syndrome coronavirus that lacks the E gene is attenuated in vitro and in vivo",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Dediego",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Journal of virology",
+            "volume": "81",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Severe acute respiratory syndrome coronavirus envelope protein regulates cell stress response and apoptosis",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Dediego",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "PLoS pathogens",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Pathogenicity of severe acute respiratory coronavirus deletion mutants in hACE-2 transgenic mice",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Dediego",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Virology",
+            "volume": "376",
+            "issn": "",
+            "pages": "379--389",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "The SARS coronavirus E protein interacts with PALS1 and alters tight junction formation and epithelial morphogenesis",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Teoh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Molecular biology of the cell",
+            "volume": "21",
+            "issn": "",
+            "pages": "3838--3852",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "The PDZ-binding motif of severe acute respiratory syndrome coronavirus envelope protein is a determinant of viral pathogenesis",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Jimenez-Guardeno",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "PLoS pathogens",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "The emerging contribution of sequence context to the specificity of protein interactions mediated by PDZ domains",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Luck",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Charbonnier",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Trave",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "FEBS letters",
+            "volume": "586",
+            "issn": "",
+            "pages": "2648--2661",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Bcl-xL inhibits T-cell apoptosis induced by expression of SARS coronavirus E protein in the absence of growth factors",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "The Biochemical journal",
+            "volume": "392",
+            "issn": "",
+            "pages": "135--143",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Redefining the BH3 Death Domain as a 'Short Linear Motif'",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Aouacheria",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Combet",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Tompa",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Hardwick",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Trends in biochemical sciences",
+            "volume": "40",
+            "issn": "",
+            "pages": "736--748",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "The structural biology of BH3-only proteins",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kvansakul",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Hinds",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Methods in enzymology",
+            "volume": "544",
+            "issn": "",
+            "pages": "49--74",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "BH3-Only Proteins in Health and Disease",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Glab",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Mbogo",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Puthalakath",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Int Rev Cell Mol Biol",
+            "volume": "328",
+            "issn": "",
+            "pages": "163--196",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Evolution of Bcl-2 homology motifs: homology versus homoplasy",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Aouacheria",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Rech De Laval",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Combet",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Hardwick",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Trends in cell biology",
+            "volume": "23",
+            "issn": "",
+            "pages": "103--111",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Targeting BCL-2-like Proteins to Kill Cancer Cells",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Cory",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Roberts",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Colman",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Adams",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Trends Cancer",
+            "volume": "2",
+            "issn": "",
+            "pages": "443--460",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Overview of BCL-2 Family Proteins and Therapeutic Potentials",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Huska",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Lamb",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Hardwick",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Methods Mol Biol",
+            "volume": "1877",
+            "issn": "",
+            "pages": "1--21",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Why do BCL-2 inhibitors work and where should we use them in the clinic?",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Montero",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Letai",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Cell death and differentiation",
+            "volume": "25",
+            "issn": "",
+            "pages": "56--64",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Identifying SARS-CoV-2 related coronaviruses in Malayan pangolins",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Lam",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Identification of a Golgi complex-targeting signal in the cytoplasmic tail of the severe acute respiratory syndrome coronavirus envelope protein",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Cohen",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Machamer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Journal of virology",
+            "volume": "85",
+            "issn": "",
+            "pages": "5794--5803",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Structure of a conserved Golgi complextargeting signal in coronavirus envelope proteins",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Surya",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Claudine",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Torres",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "The Journal of biological chemistry",
+            "volume": "289",
+            "issn": "",
+            "pages": "12535--12549",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Extreme evolutionary conservation of functionally important regions in H1N1 influenza proteome",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Warren",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Wan",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Conant",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Korkin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "PloS one",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Viral capsid proteins are segregated in structural fold space",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Cheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Brooks",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "PLoS computational biology",
+            "volume": "3",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "An investigation of the role of transmembrane domains in Golgi protein retention",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Munro",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "The EMBO journal",
+            "volume": "14",
+            "issn": "",
+            "pages": "4695--4704",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "VirHostNet 2.0: surfing on the web of virus/host molecular interactions data",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Guirimand",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Delmotte",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Navratil",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Nucleic acids research",
+            "volume": "43",
+            "issn": "",
+            "pages": "583--587",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Induction of apoptosis in murine coronavirus-infected cultured cells and demonstration of E protein as an apoptosis inducer",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "An",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Leibowitz",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Makino",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "Journal of virology",
+            "volume": "73",
+            "issn": "",
+            "pages": "7853--7859",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "An inhibitor of Bcl-2 family proteins induces regression of solid tumours",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Oltersdorf",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Nature",
+            "volume": "435",
+            "issn": "",
+            "pages": "677--681",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "metaSPAdes: a new versatile metagenomic assembler",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Nurk",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Meleshko",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Korobeynikov",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Pevzner",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "27",
+            "issn": "",
+            "pages": "824--834",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Viral Metagenomics Revealed Sendai Virus and Coronavirus Infection of Malayan Pangolins (Manis javanica)",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Viruses",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "SeaView version 4: A multiplatform graphical user interface for sequence alignment and phylogenetic tree building",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Gouy",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Guindon",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Gascuel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Molecular biology and evolution",
+            "volume": "27",
+            "issn": "",
+            "pages": "221--224",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "NPS@: network protein sequence analysis",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Combet",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Blanchet",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Geourjon",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Deleage",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Trends in biochemical sciences",
+            "volume": "25",
+            "issn": "",
+            "pages": "147--150",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "BIONJ: an improved version of the NJ algorithm based on a simple model of sequence data",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Gascuel",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "Molecular biology and evolution",
+            "volume": "14",
+            "issn": "",
+            "pages": "685--695",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Improved scoring function for comparative modeling using the M4T method",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Rykunov",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Steinberger",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Madrid-Aliste",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Fiser",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "J Struct Funct Genomics",
+            "volume": "10",
+            "issn": "",
+            "pages": "95--99",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "GISAID: Global initiative on sharing all influenza data -from vision to reality",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Shu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Mccauley",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Euro Surveill",
+            "volume": "22",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "to positions 51, 56 and 58 in the actual sequence) was reported to abrogate the ability of SARS-CoV E to interact with Bcl-xL (21). The Pro residue at position 4 of the consensus (position 54 in the actual sequence) is totally conserved and a study indicated that it is critical for targeting the protein to the Golgi (30). The influence of the other residues present in the CoV E BH3-like motifs (including the potentially important Asn48 residue located three residues upstream of L51) on protein stability, subcellular targeting, function and interaction is unknown and awaits further characterization. To predict structure-activity relationship, we constructed a structural model of SARS-CoV-2 E guided by the homologous structure of SARS-CoV E (PDB code: 5X29) (9). Note that only four positions are different between full-length SARS-CoV E and SARS-CoV-2 E: two within the BH3-like helix (Thr55 and Val56 in SARS-CoV E, Ser55 and Phe56 in SARS-CoV-2) and two in a site immediately N-terminal to the PBM (where a pair of residues formed by Glu69 and Gly70 in SARS-CoV E is found instead of a single Arg69 residue in SARS-CoV-2 E). As shown in Fig. 5, in both the experimental structure (Fig.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "detailed structural characterization and the identification of small molecule drugs able to disrupt this interaction could provide a targeted therapeutic approach where coronavirus treatments are currently lacking or scarce at best. Recombinant SARS-CoV-2 deleted or mutated in the BH3-like region of E might also prove valuable for the design of a live, attenuated vaccine, with an E protein sufficiently intact to maintain structural integrity necessary for the virus life cycle, but mutated enough to abolish protein-protein interactions involved in viral pathogenicity.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "using the VirHosNet 2.0 interology web service (35) on the COVID-19/SARS-CoV-2 special release (March 2020). We used the SARS-CoV-2 proteins annotated from Uniprot (https://covid-19.uniprot.org/) as a seed and inferred interology using gold standard protein-protein interaction annotated in VirHostNet. Interologs were defined based on known SARS-CoV protein-protein interactions by using 95% percent identity and 95 % protein coverage blastp thresholds. The putative SARS-CoV2 interactome comprised 114 proteins and 218 protein-protein interactions.This work was performed using the computing facilities of the LBBE/PRABI-AMSB. We gratefully acknowledge the authors, originating and submitting laboratories of the sequences from GISAID's EpiCov Database (see",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "This research was supported by CNRS and Montpellier University.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Alignment of BH3 regions from Bcl-2 family members, classical BH3-only proteins and other BH3-bearing sequences. Accession identifiers, refer to starting and ending positions of each BH3 region. The conserved Leu and Asp residues are highlighted in red. The additional BH3 sequences reported in human BID-BH3-B, mouse NOXA and human ATR were omitted for the sake of clarity. ANTI: anti-apoptotic; PRO: pro-apoptotic; Act: activator BH3-only protein; Sen: sensitizer BH3-only protein. STRUCT: experimentally determined structured protein; STRUCT (pred): protein predicted to be structured; IDP: protein experimentally shown as being disordered; IDP (pred): protein predicted to be intrinsically disordered; MIX: protein experimentally shown to contain both disordered and structured regions. MIX (pred): protein predicted to contain both disordered and structured regions. Residue conservation is indicated in shades of colors (darker represents higher degree of conservation). Fixed amino acid positions can hardly be identified in BH3 and BH3-like sequences, and even the typical Leu and Asp residues are not universally conserved among all BH3-bearing proteins. Thus, structural determinations of complexes between BH3 peptides (or BH3-containing proteins) andBcl-2 homologous proteins and experimental (biochemical and/or cell-based) evidence for direct interactions between them should be considered as additional criteria to validate BH3 motifs, in addition to sequence-based inference(25). Note that the BH3 motif is an unusual SLiM type as it is found both in structured proteins, including Bcl-2 homologs, and in intrinsically disordered proteins (IDPs), such as classical BH3-only proteins(22). Species abbreviations are as follows: Hs, Homo sapiens; Mm, Mus musculus; Dm, Drosophila melanogaster; Hv, Hydra vulgaris; Lb, Lubomirskia baikalensis; Aq, Amphimedon queenslandica; Am, Ambystoma mexicanum; Ce, Caenorhabditis elegans; Pl Photorhabdus luminescens; NDV, Newcastle disease virus; HHV8, Human herpesvirus 8 (Kaposi's sarcoma-associated herpesvirus); HBV, Hepatitis B Virus; HCV, Hepatitis C Virus; Sc, Saccharomyces cerevisiae; Sp, Schizosaccharomyces pombe; SARS: human SARS-CoV; SARS2: human SARS-CoV-2.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Topology of CoV E proteins from betacoronaviruses and sequence alignment showing the BH3-like motif. The CoV E protein consists of three domains: (i) the amino (N)-terminal domain; (ii) the transmembrane domain (TMD); (iii) and the carboxy (C)-terminal domain, which comprises a BH3-like motif and a PDZ-binding motif (PBM) at its extremity. The CoV E protein sequences of selected betacoronaviruses were aligned. The region encompassing the BH3-like region is shown. The conserved Leu and Pro residues are highlighted in red. Red circles indicate coronaviruses infecting humans. Bottom: logo map of the aligned amino acid segments. author/funder. All rights reserved. No reuse allowed without permission.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Sequence alignment of the BH3-like region of CoV E proteins from other coronaviruses. The CoV E protein sequences of selected alpha-, gamma-and deltacoronavirus were aligned. The region encompassing the BH3-like region (as identifiable in the human SARS-CoV ZJ01 reference sequence) is shown. The conserved Leu and Pro residues are highlighted in red. Red circles: coronaviruses infecting humans. Bottom: logo map of the aligned amino acid segments.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "Phylogenetic tree of CoV E proteins from SARS-CoV-2 and other representative coronaviruses. Red circles indicate viruses infecting human hosts. SARS-CoV-2 sequences are in white. The tree was calculated using the BioNJ method on the C-terminal domain of CoV E proteins encompassing the BH3-like motif (or homologous site). Numbers indicate bootstrap percentages after 1000 replications; values below 50% are not reported. Branch lengths are proportional to distances between sequences.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "Structural analysis of SARS-CoV and SARS-CoV-2 E proteins. (A) Experimentally determined NMR structure of the SARS-CoV E protein pentamer (PDB code: 5X29). (B) Homology-driven model of the SARS-CoV-2 E protein based on 5X29. Residues from the BH3-like core segment (LVKPTVYVY) are shown in red. The positions of the conserved Leu and Pro residues are indicated (note that the numbering refers to the actual positions within the protein sequence and not to the positions 1 and 4",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "E sequence is framed. Asterisks in the consensus line indicate positions that are fully conserved. Colons indicate positions that have strongly similar residues and dots are assigned to weakly similar positions.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF10": {
+            "text": "SARS-CoV-2:human predicted interactome.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF11": {
+            "text": "predicted protein-protein interaction between SARS-CoV-2 E (VEMP_CVHSA) and BCL2L1 (BCL2L1_HUMAN) is highlighted in yellow. Nodes that represent anti-apoptotic Bcl-2 family members are colored in green.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF1": {
+            "text": "In a study published in 2005, Yang et al.(21) provided evidence that ectopic expression of SARS-CoV E induced T-cell apoptosis, which was inhibited by the prosurvival Bcl-2 LVKPTVYV) in the C-terminal moiety of the SARS-CoV E protein and subsequent mutagenesis experiments revealed that this amino acid stretch was responsible for interaction with Bcl-xL. BH3 motifs form a newly defined class of SLiMs (22) that have well-studied roles in the apoptotic network of protein-protein interactions, by binding to globular proteins of the Bcl-2 family(23,24). Elaborating on",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "WebLogo. A phylogenetic tree was calculated on 67 sites, with 1000 bootstrap replicates, using the BIONJ algorithm (42) embedded in Seaview v5.0.2.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

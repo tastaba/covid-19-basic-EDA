@@ -1,0 +1,1320 @@
+{
+    "paper_id": "8d7e5cdb74dfd4515ccc42c948226f3fb1bb891e",
+    "metadata": {
+        "title": "Structural analysis of SARS-CoV-2 and predictions of the human interactome 2 3",
+        "authors": [
+            {
+                "first": "Andrea",
+                "middle": [],
+                "last": "Vandelli",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Centre for Genomic Regulation (CRG)",
+                    "institution": "The Barcelona Institute for Science and Technology",
+                    "location": {
+                        "addrLine": "Dr. Aiguader 88",
+                        "postCode": "08003 7",
+                        "settlement": "Barcelona",
+                        "country": "Spain"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Michele",
+                "middle": [],
+                "last": "Monti",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Centre for Genomic Regulation (CRG)",
+                    "institution": "The Barcelona Institute for Science and Technology",
+                    "location": {
+                        "addrLine": "Dr. Aiguader 88",
+                        "postCode": "08003 7",
+                        "settlement": "Barcelona",
+                        "country": "Spain"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Edoardo",
+                "middle": [],
+                "last": "Milanetti",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Sapienza University",
+                    "location": {
+                        "addrLine": "Piazzale Aldo Moro 5",
+                        "postCode": "00185",
+                        "settlement": "Rome",
+                        "country": "Italy 13"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Riccardo",
+                "middle": [
+                    "Delli"
+                ],
+                "last": "Ponti",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Sapienza University",
+                    "location": {
+                        "addrLine": "Piazzale Aldo Moro 5",
+                        "postCode": "00185",
+                        "settlement": "Rome",
+                        "country": "Italy 13"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Gian",
+                "middle": [],
+                "last": "Gaetano Tartaglia",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Centre for Genomic Regulation (CRG)",
+                    "institution": "The Barcelona Institute for Science and Technology",
+                    "location": {
+                        "addrLine": "Dr. Aiguader 88",
+                        "postCode": "08003 7",
+                        "settlement": "Barcelona",
+                        "country": "Spain"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "",
+                "middle": [],
+                "last": "12",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "We calculated the structural properties of >2500 coronaviruses and computed >100000 human 26 protein interactions with severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). Using 27 the CROSS method, we found that the SARS-CoV-2 region encompassing nucleotides 23000 -28 24000 is highly conserved at the structural level, while the region upstream varies significantly. 29",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "These two sequences are important for viral infection as they code for a domain of the viral protein 30 Spike S interacting with the human receptor angiotensin-converting enzyme 2 (ACE2) and, in the 31 close homologue from Middle East respiratory syndrome coronavirus (MERS-CoV), sialic acids. 32",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "We predict highly structured regions at the 5' and 3' where our calculations indicate strong 33 propensity to bind to human proteins involved in viral replication. Using the catRAPID method, we 34 identified that the 5' interacts with double-stranded RNA-specific editase 1 ADARB1, 2-5A-35 author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "sequence and structural alignments among 62 SARS-CoV-2 strains and identified the conservation 70 of specific elements in the spike S region, which provide clues on the evolution of domains 71 involved in the binding to ACE2 and sialic acid. To analyze SARS-CoV-2 (reference Wuhan strain MN908947), we employed CROSS 11 that 101 protein (nucleotides 26523-27191), spike S protein (nucleotides 23000-24000), and nucleocapsid N 104 protein (nucleotides 2874-29533; Fig. 1 ) 24 . The lowest density of double-stranded regions were 105 observed at nucleotides 6000-6250 and 20000-21500 and correspond to the regions between the 106 non-structural proteins nsp14 and nsp15 and the upstream region of the spike surface protein S (Fig.  107 1) 24 . In addition to the maximum corresponding to nucleotides 23000-24000, the structural content 108 of spike S protein shows minima at around nucleotides 20500 and 24500 (Fig. 1) . 109 We used the Vienna method 25 to further investigate the RNA secondary structure of specific 110 regions identified with CROSS 12 . Employing a 100 nucleotide window centered around CROSS 111 maxima and minima, we found good match between CROSS scores and Vienna free energies (Fig.  112   1) . Strong agreement is also observed between CROSS and Vienna positional entropy, indicating 113 that regions with the highest structural content have also the lowest structural diversity. 114 115 Our analysis suggests presence of structural elements in SARS-CoV-2 that have evolved to interact 116 with specific human proteins 10 . Our observation is based on the assumption that structured regions 117 have an intrinsic propensity to recruit proteins 13 , which is supported by the fact that structured 118 transcripts act as scaffolds for protein assembly 14, 15 . In this analysis, we compared the Wuhan strain MN908947 with around 2800 other coronaviruses 128 (data from NCBI) having as host human (Fig. 2) or other species (Supp. Fig. 1) . When comparing 129 SARS-CoV-2 with human coronaviruses (1387 strains, including SARS-CoV and MERS-CoV), we 130 found that the most conserved region falls inside the spike S genomic locus (Fig. 2) coding regions with several minima in correspondence to areas between genes (Fig. 3A) . One 152 highly conserved region is between nucleotides 23000 -24000 in the spike S genomic locus, while 153 sequences up-and down-stream are variable (Fig. 3A) . We then used CROSSalign 12 to compare 154 the structural content (Materials and Methods). High variability of structure is observed for both 155 the 5' and 3' and for nucleotides between 21000 -22000 as well as 24000 -25000, associated with 156 the S region (red bars in Fig. 3A) . The rest of the regions are significantly conserved at a structural 157 level (p-value < 0.0001; Fisher's test). 158",
+            "cite_spans": [
+                {
+                    "start": 472,
+                    "end": 474,
+                    "text": "24",
+                    "ref_id": null
+                },
+                {
+                    "start": 737,
+                    "end": 739,
+                    "text": "24",
+                    "ref_id": null
+                },
+                {
+                    "start": 919,
+                    "end": 922,
+                    "text": "109",
+                    "ref_id": null
+                },
+                {
+                    "start": 1773,
+                    "end": 1776,
+                    "text": "14,",
+                    "ref_id": null
+                },
+                {
+                    "start": 1777,
+                    "end": 1779,
+                    "text": "15",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 463,
+                    "end": 469,
+                    "text": "Fig. 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 723,
+                    "end": 733,
+                    "text": "(Fig.  107",
+                    "ref_id": null
+                },
+                {
+                    "start": 908,
+                    "end": 916,
+                    "text": "(Fig. 1)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1199,
+                    "end": 1214,
+                    "text": "(Fig.  112   1)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1917,
+                    "end": 1925,
+                    "text": "(Fig. 2)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1950,
+                    "end": 1957,
+                    "text": "Fig. 1)",
+                    "ref_id": null
+                },
+                {
+                    "start": 2147,
+                    "end": 2155,
+                    "text": "(Fig. 2)",
+                    "ref_id": null
+                },
+                {
+                    "start": 2232,
+                    "end": 2241,
+                    "text": "(Fig. 3A)",
+                    "ref_id": null
+                },
+                {
+                    "start": 2394,
+                    "end": 2403,
+                    "text": "(Fig. 3A)",
+                    "ref_id": null
+                },
+                {
+                    "start": 2677,
+                    "end": 2685,
+                    "text": "Fig. 3A)",
+                    "ref_id": null
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "We then compared protein sequences coded by the spike S genomic locus (NCBI reference 160 QHD43416) and found that both sequence (Fig. 3A) and structure (Fig. 2) of nucleotides 23000 -161 24000 are highly conserved. The region corresponds to amino acids 330-500 that contact the host 162 receptor angiotensin-converting enzyme 2 (ACE2) 27 promoting infection and provoking lung injury 163 22, 28 . By contrast, the region upstream of the binding site receptor ACE2 and located in 164 correspondence to the minimum of the structural profile at around nucleotides 22500-23000 ( Fig. 1)  165 is highly variable 29 , as calculated with Tcoffee multiple sequence alignments 29 (Fig. 3A) . This part 166 of the spike S region corresponds to amino acids 243-302 that in MERS-CoV binds to sialic acids 167 regulating infection through cell-cell membrane fusion ( Fig. 3B ; see related manuscript by E. 168",
+            "cite_spans": [
+                {
+                    "start": 389,
+                    "end": 392,
+                    "text": "22,",
+                    "ref_id": null
+                },
+                {
+                    "start": 393,
+                    "end": 395,
+                    "text": "28",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 129,
+                    "end": 138,
+                    "text": "(Fig. 3A)",
+                    "ref_id": null
+                },
+                {
+                    "start": 153,
+                    "end": 161,
+                    "text": "(Fig. 2)",
+                    "ref_id": null
+                },
+                {
+                    "start": 576,
+                    "end": 588,
+                    "text": "Fig. 1)  165",
+                    "ref_id": null
+                },
+                {
+                    "start": 672,
+                    "end": 681,
+                    "text": "(Fig. 3A)",
+                    "ref_id": null
+                },
+                {
+                    "start": 855,
+                    "end": 862,
+                    "text": "Fig. 3B",
+                    "ref_id": null
+                }
+            ],
+            "section": "159"
+        },
+        {
+            "text": "Milanetti et al. \"In-Silico evidence for two receptors based strategy of SARS-CoV-2\") 9,30,31 . 169 author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "159"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.28.013789 doi: bioRxiv preprint Our analysis suggests that the structural region between nucleotides 23000 and 24000 of Spike S 171 region is conserved among coronaviruses (Fig. 2) and the binding site for ACE2 has poor variation 172 in human SARS-CoV-2 strains (Fig. 3B) . By contrast, the region upstream, potentially involved in 173 adhesion to sialic acids, has almost poor structural content and varies significantly in the human 174 population (Fig. 3B) . In order to obtain insights on how the virus is replicated in human cells, we predicted SARS-CoV-2 180 interactions with the whole RNA-binding human proteome. Following a protocol to study structural 181 conservation in viruses 12 , we first divided the Wuhan sequence in 30 fragments of 1000 nucleotides 182 each moving from the 5' to 3' and then calculated the protein-RNA interactions of each fragment 183 with catRAPID omics (3340 canonical and non-canonical RNA-binding proteins, or RBPs, for a 184 total 102000 interactions) 16 . Proteins such as PTBP1 showed the highest interaction propensity (or 185 Z-score; Materials and Methods) at the 5' while others such as HNRNPQ showed the highest 186 interaction propensity at the 3', in agreement with previous studies on coronaviruses 32 . 187",
+            "cite_spans": [
+                {
+                    "start": 1103,
+                    "end": 1105,
+                    "text": "16",
+                    "ref_id": null
+                },
+                {
+                    "start": 1360,
+                    "end": 1362,
+                    "text": "32",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 282,
+                    "end": 290,
+                    "text": "(Fig. 2)",
+                    "ref_id": null
+                },
+                {
+                    "start": 372,
+                    "end": 381,
+                    "text": "(Fig. 3B)",
+                    "ref_id": null
+                },
+                {
+                    "start": 560,
+                    "end": 569,
+                    "text": "(Fig. 3B)",
+                    "ref_id": null
+                }
+            ],
+            "section": "159"
+        },
+        {
+            "text": "For each fragment, we predicted the most significant interactions by filtering according to the Z 189 score. We used three different thresholds in ascending order of stringency: Z \u2265 1.50, 1.75 and 2 190 respectively. Importantly, we removed from the list proteins that were predicted to interact 191 promiscuously with different fragments. Fragment 1 corresponds to the 5' and is the most 192 contacted by RBPs (around 120 with Z\u22652 high-confidence interactions; Fig. 4A ), which is in 193 agreement with the observation that highly structured regions attract a large number of proteins 13 . 194 Indeed, the 5' contains a leader sequence and the untranslated region with multiple stem loop 195 structures that control RNA replication and transcription 33,34 . 196 197 The interactome of each fragment was then analysed using cleverGO, a tool for GO enrichment 198 analysis 35 . Proteins interacting with fragments 1, 2 and 29 were associated with annotations related 199 to viral processes ( Fig. 4B ; Supp. Table 1 ). Considering the three thresholds applied (Materials 200 and Methods), we found 22 viral proteins for fragment 1, 2 proteins for fragment 2 and 11 proteins 201 for fragment 29 (Fig. 4C) . 202 203 author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [
+                {
+                    "start": 586,
+                    "end": 594,
+                    "text": "13 . 194",
+                    "ref_id": null
+                },
+                {
+                    "start": 751,
+                    "end": 766,
+                    "text": "33,34 . 196 197",
+                    "ref_id": null
+                },
+                {
+                    "start": 1059,
+                    "end": 1073,
+                    "text": "(Materials 200",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 462,
+                    "end": 469,
+                    "text": "Fig. 4A",
+                    "ref_id": null
+                },
+                {
+                    "start": 991,
+                    "end": 998,
+                    "text": "Fig. 4B",
+                    "ref_id": null
+                },
+                {
+                    "start": 1007,
+                    "end": 1014,
+                    "text": "Table 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 1193,
+                    "end": 1202,
+                    "text": "(Fig. 4C)",
+                    "ref_id": null
+                }
+            ],
+            "section": "188"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.28.013789 doi: bioRxiv preprint Among the high-confidence interactors of fragment 1, we discovered RBPs involved in positive 204 regulation of viral processes and viral genome replication, such as double-stranded RNA-specific 205 editase 1 ADARB1 (Uniprot P78563 36 ) and 2-5A-dependent ribonuclease RNASEL (Q05823). We 206 also identified proteins related to the establishment of integrated proviral latency, including X-ray 207 repair cross-complementing protein 5 XRCC5 (P13010) and X-ray repair cross-complementing 208 protein 6 XRCC6 (P12956; Fig. 4D) . In the list of 274 proteins predicted to bind at the 5' (fragment 1) with Z score The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.28.013789 doi: bioRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 658,
+                    "end": 666,
+                    "text": "Fig. 4D)",
+                    "ref_id": null
+                }
+            ],
+            "section": "188"
+        },
+        {
+            "text": "Using catRAPID 16,17 we computed >100000 protein interactions with SARS-CoV-2 and found that 340 the highly structured region at the 5' has the largest number of protein partners including ATP-341 dependent RNA helicase DDX1, which has been previously reported to be essential for HIV-1 and 342 coronavirus IBV replication 43 In conclusion, we hope that our analysis would be useful to the scientific community to identify 361 virus-host interactions and block SARS-CoV-2 spreading. 362 363 author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.28.013789 doi: bioRxiv preprint",
+            "cite_spans": [
+                {
+                    "start": 323,
+                    "end": 325,
+                    "text": "43",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "188"
+        },
+        {
+            "text": "Interactions between each fragment of target sequence and the human proteome were predicted 415 using catRAPID omics 16, 17 , an algorithm that estimates the binding propensity of protein-RNA 416 pairs by combining secondary structure, hydrogen bonding and van der Waals contributions. As 417 reported in a recent analysis of about half a million of experimentally validated interactions 31 , the 418 algorithm is able to separate interacting vs non-interacting pairs with an area under the ROC curve 419 of 0.78. 420",
+            "cite_spans": [
+                {
+                    "start": 117,
+                    "end": 120,
+                    "text": "16,",
+                    "ref_id": null
+                },
+                {
+                    "start": 121,
+                    "end": 123,
+                    "text": "17",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Protein-RNA interaction prediction 413 414"
+        },
+        {
+            "text": "The complete list of interactions between the 30 fragments and the human proteome is available at 421 http://crg-webservice.s3.amazonaws.com/submissions/2020-422 03/252523/output/index.html?unlock=f6ca306af0. The output then is filtered according to the Z-423 score column, which is the interaction propensity normalised by the mean and standard deviation 424 calculated over the reference RBP set (http://s.tartaglialab.com/static_files/shared/faqs.html#4). We 425 used three different thresholds in ascending order of stringency: Z greater or equal than 1.50, 1.75 426 and 2 respectively and for each threshold we then selected the proteins that were unique for each 427 fragment for each threshold. The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.28.013789 doi: bioRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Protein-RNA interaction prediction 413 414"
+        },
+        {
+            "text": "Where a correspond to the amino acid at the position i and P(a,i) is the frequency of a certain 446 amino-acid a at position i of the sequence. Low entropy indicates poorly variability: if P(a,x) = 1 for 447 one a and 0 for the rest, then S(x) =0. By contrast, if the frequencies of all amino acids are equally 448 distributed, the entropy reaches its maximum possible value. 449 450 author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Protein-RNA interaction prediction 413 414"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.28.013789 doi: bioRxiv preprint author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Protein-RNA interaction prediction 413 414"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.28.013789 doi: bioRxiv preprint author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Protein-RNA interaction prediction 413 414"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.28.013789 doi: bioRxiv preprint The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.28.013789 doi: bioRxiv preprint author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Protein-RNA interaction prediction 413 414"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.28.013789 doi: bioRxiv preprint 577 578 author/funder. All rights reserved. No reuse allowed without permission. Nucleic Acid Position ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Protein-RNA interaction prediction 413 414"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "A Novel Coronavirus from Patients with Pneumonia in China",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "N. Engl. J",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Coronaviruses and immunosuppressed patients. The facts during the third 453 epidemic",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "D&apos;antiga",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Liver Transplant. Off. Publ. Am. Assoc. Study Liver Dis. Int. Liver Transplant. Soc",
+            "volume": "454",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/lt.25756"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Treatment Coronavirus (COVID-19)",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Isolation and characterization of a bat SARS-like coronavirus that uses the 458 ACE2 receptor",
+            "authors": [
+                {
+                    "first": "X.-Y",
+                    "middle": [],
+                    "last": "Ge",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Nature",
+            "volume": "503",
+            "issn": "",
+            "pages": "535--538",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Furin cleavage of the SARS coronavirus spike 460 glycoprotein enhances cell-cell fusion but does not affect virion entry",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Follis",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "York",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Nunberg",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Virology",
+            "volume": "350",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Isolation and Characterization of 2019-nCoV-like Coronavirus from Malayan 463",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Xiao",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Structures of MERS-CoV spike glycoprotein in complex with sialoside 465 attachment receptors",
+            "authors": [
+                {
+                    "first": "Y.-J",
+                    "middle": [],
+                    "last": "Park",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Nat. Struct. Mol. Biol",
+            "volume": "26",
+            "issn": "",
+            "pages": "1151--1157",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Cryo-electron microscopy structure of a coronavirus spike glycoprotein 467 trimer",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Walls",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Nature",
+            "volume": "531",
+            "issn": "",
+            "pages": "114--117",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Identification of sialic acid-binding function for the Middle East respiratory 469 syndrome coronavirus spike glycoprotein",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Proc. Natl. Acad. Sci. U. S. A",
+            "volume": "114",
+            "issn": "",
+            "pages": "8508--8517",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "The Structure and Functions of Coronavirus Genomic 3' and 5' 472",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Leibowitz",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "A high-throughput approach to profile 474",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Delli Ponti",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Marti",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Armaos",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Tartaglia",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Prediction Shows Evidence for Structure in lncRNAs",
+            "authors": [],
+            "year": 2018,
+            "venue": "Front. Mol. Biosci",
+            "volume": "5",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "RNA structure drives interaction with proteins",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Sanchez De Groot",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Nat. Commun",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "An Integrative Study of Protein-RNA Condensates Identifies Scaffolding 480",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Cid-Samper",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Phase separation drives X-chromosome inactivation: a hypothesis",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Cerase",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Nat. Struct",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "catRAPID omics: a web server for large-scale prediction of protein-RNA 485 interactions",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Agostini",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Bioinforma. Oxf. Engl",
+            "volume": "29",
+            "issn": "",
+            "pages": "2928--2930",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Quantitative predictions of protein interactions with long noncoding RNAs",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Cirillo",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Predicting protein associations with 489 long noncoding RNAs",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bellucci",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Agostini",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Masin",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Tartaglia",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Nat. Methods",
+            "volume": "8",
+            "issn": "",
+            "pages": "444--445",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "RNAct: Protein-RNA interaction predictions for 491 model organisms with supporting experimental data",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Lang",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Armaos",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Tartaglia",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Nucleic Acids Res",
+            "volume": "492",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/nar/gky967"
+                ]
+            }
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Cloaked similarity between HIV-1 and SARS-CoV suggests an 494 anti-SARS strategy",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Kliger",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Levanon",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "BMC Microbiol",
+            "volume": "3",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Inhibition of furin-mediated cleavage activation of HIV-1 glycoprotein 496 gp160",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Hallenberger",
+                    "suffix": ""
+                }
+            ],
+            "year": 1992,
+            "venue": "Nature",
+            "volume": "360",
+            "issn": "",
+            "pages": "358--361",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Differential downregulation of ACE2 by the spike proteins of severe acute 498 respiratory syndrome coronavirus and human coronavirus NL63",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Glowacka",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "J. Virol",
+            "volume": "84",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Role of the human and murine cyclin 551 T proteins in regulating HIV-1 tat-activation",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Kwak",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Ivanov",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Nee",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Gaynor",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "J. Mol. Biol",
+            "volume": "288",
+            "issn": "",
+            "pages": "57--69",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "TRIM32 is an E3 ubiquitin ligase for 553 dysbindin",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Locke",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Tinsley",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Benson",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Blake",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Hum. Mol. Genet",
+            "volume": "18",
+            "issn": "",
+            "pages": "2344--2358",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "A SARS-CoV-2-Human Protein-Protein Interaction Map Reveals Drug 555 Targets and Potential Drug-Repurposing",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Gordon",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.03.22.002386"
+                ]
+            }
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "The role of A-kinase anchoring protein 95-like 558 protein in annealing of tRNALys3 to HIV-1 RNA",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Xing",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Kleiman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Retrovirology",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "The La-related protein LARP7 is a component of the 7SK ribonucleoprotein 560 and affects transcription of cellular and viral polymerase II genes",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Markert",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "EMBO Rep",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Systematic Analysis of the Protein Interaction Network for the",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Human Transcription",
+            "volume": "563",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Machinery Reveals the Identity of the 7SK Capping Enzyme",
+            "authors": [],
+            "year": null,
+            "venue": "Molecular cell",
+            "volume": "27",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "ChEMBL: towards direct deposition of bioassay data",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Mendez",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Nucleic Acids Res",
+            "volume": "47",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "A high-throughput approach to profile 568 RNA structure",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Delli Ponti",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Marti",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Armaos",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Tartaglia",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Nucleic Acids Res",
+            "volume": "45",
+            "issn": "",
+            "pages": "35--35",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "DNA-dependent protein kinase (DNA-PK) 570 phosphorylates nuclear DNA helicase II/RNA helicase A and hnRNP proteins in an RNA-571 dependent manner",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Schlott",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "G\u00f6rlach",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Grosse",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Nucleic Acids Res",
+            "volume": "32",
+            "issn": "",
+            "pages": "1--10",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Promote Switch from Autophagy to Apoptosis by Caspase-Mediated Cleavage of Beclin-1",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "structured regions of RNA molecules have strong propensity to form stable contacts with 74 proteins 13 and promote assembly of specific complexes 14,15 , SARS-CoV-2 domains enriched in 75 double-stranded content are expected to establish interactions within host cells that are important to 76 replicate the virus. To investigate the interactions potential of SARS-CoV-2 RNA with human 77 proteins, we employed catRAPID 16,17 . catRAPID 18 estimates the binding potential of protein and 78 RNA molecules through van der Waals, hydrogen bonding and secondary structure propensities of 79 allowing identification of interaction partners with high confidence 19 . The unbiased analysis of 80 more than 100000 protein interactions with SARS-CoV-2 RNA reveals that the 5' of SARS-CoV-81 2 has strong propensity to bind to human proteins involved in viral infection and especially reported 82 to be associated with HIV infection. A comparison between SARS-CoV and HIV reveals indeed 83 similarities 20 , but the relationship between SARS-CoV-2 and HIV is still unexplored. 84 Interestingly, HIV and SARS-CoV-2, but not SARS-CoV nor MERS-CoV, have a furin-cleavage 85 site occurs in the spike S protein, which could explain the spread velocity of SARS-CoV-2 86 compared to SARS-CoV and MERS-CoV 21,22 . Yet, many processes related to SARS-CoV-2 87replication are unknown and our study aims to suggest relevant protein interactions for that our large-scale calculations of structural properties and binding partners of SARS-91CoV-2 will be useful to identify the mechanisms of virus replication within the human host.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "comparisons reveal that the spike S region of SARS-CoV-2 is conserved among 122 coronaviruses 123 124 We employed CROSSalign 12 to study the structural conservation of SARS-CoV-2 in different 125 strains (Materials and Methods). 126 127",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Analysis of human interactions with SARS-CoV-2 identifies proteins involved in viral 177replication and HIV infection 178 179",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "we found proteins related to defence response to viruses, such as ATP-dependent RNA 211 helicase DDX1 (Q92499), are involved in the negative regulation of viral genome replication. Some 212 proteins are listed as DNA binding proteins such as Cyclin-T1 CCNT1 (Uniprot code O60563 36 ), 213 Zinc finger protein 175 ZNF175 (Q9Y473), while Prospero homeobox protein 1 PROX1 (Q92786) 214were included because they could have potential RNA-binding ability(Fig. 4D)37  . As for fragment 215 2, we found two canonical RBPs: E3 ubiquitin-protein ligase TRIM32 (Q13049) and E3 ubiquitin-216 protein ligase TRIM21 (P19474), which are listed as negative regulators of viral release from host 217 cell, negative regulators of viral transcription and positive regulators of viral entry into host cells. 218Finally, for fragment 29, 10 of the 11 viral proteins found are members of the Gag polyprotein 219 family, that perform different tasks during HIV assembly, budding, maturation. More than a simple 220 scaffold protein forming the viral core, Gag proteins are recognized as elements able to select viral 221 and host proteins as they traffic to the cell membrane (Supp.Table 1) 38 . 222 223 Analysis of functional annotations carried out with GeneMania 39 reveals that proteins interacting 224 with the 5' of SARS-CoV-2 RNA are associated with regulatory pathways involving NOTCH2, 225 MYC and MAX that have been previously connected to viral infection processes (Fig. 4B) 40,41 . 226 Interestingly, some of the proteins, including DDX1, ZNF175 and CCNT1 for fragment 1 and 227 TRIM32 for fragment 2, are reported to be necessary for HIV functions and replication inside the 228 cell. The roles of these proteins in the replication of a retrovirus such as HIV are expected to be 229 different from those associated with SARS-CoV-2, yet it has been reported that SARS-CoV-2 230 represses host gene expression through a number of unknown mechanisms, which could also 231 involve sequestration of transcriptional elements such as Cyclin-T1 CCNT1 42 . DDX1 is required 232 for HIV-1 Rev function as well as for HIV-1 and coronavirus IBV replication and it binds to the 233 RRE sequence of HIV-1 RNAs 43,44 . ZNF175 is relatively uncharacterized reported to interfere with 234 HIV-1 replication by suppressing Tat-induced viral LTR promoter activity 45 . Finally, CCNT1 is 235 7SK snRNA binding and regulates transactivation domain of the viral nuclear transcriptional 236 activator, Tat 46,47 . In addition, TRIM32 (fragment 2) is a well-defined Tat binding protein and, 237 EIAV Tat proteins in vivo 48 . 239 240 Analysis of interactions with SARS-CoV-2 Open Reading Frames identifies additional 241 interactions involved in HIV infection 242 243 Recently, Gordon et al. reported a list of human proteins binding to Open Reading Frames (ORFs) 244 translated from SARS-CoV-2 49 . Identified through affinity purification followed by mass 245 spectrometry quantification, 332 proteins from HEK-293T cells interact with viral ORF peptides. 246 By selecting 274 proteins binding at the 5' with Z score \u22651.5 (Supp. Table 1), of which 140 are 247 exclusively interacting with fragment 1 (Fig. 4B), we found that 8 are also reported in the list by 248 Gordon et al. 49 , which indicates significant enrichment (representation factor of 2.5; p-value of 249 0.02; hypergeometric test with human proteome in background). The fact that our list of protein-250 RNA binding partners contains elements identified also in the protein-protein network analysis is 251 not surprising, as ribonucleoprotein complexes evolve together 13 and their components sustain each 252 other activities through different types of interactions 15 . 253 254 We note that out of 332 interactions, 60 are RBPs (as reported in Uniprot 36 ), which represents a 255 considerable fraction (20%), considering that there are around 1500 RBPs in the human proteome 256 (6%) and fully justified by the fact that they involve association with viral RNAs. Comparing the 257 RBPs present in Gordon et al. 49 and those present in our list (79 as reported in Uniprot), we found 258 an overlap of 6 proteins (representation factor = 26.5; p-value < 10 -8 ; hypergeometric test), 259 including: Janus kinase and microtubule-interacting protein 1 JAKMIP1 (Q96N16), A-kinase 260 anchor protein 8 AKAP8 (O43823) and A-kinase anchor protein 8-like AKAP8L (Q9ULX6), 261which in case of HIV-1 infection is involved as a DEAD/H-box RNA helicase binding 50 , signal 262 recognition particle subunit SRP72 (O76094), binding to the 7S RNA in presence of SRP68, La-263 related protein 7, LARP7 (Q4G0J3) and La-related protein 4B LARP4B (Q92615), which are part 264 of a system for transcriptional regulation acting by means of the 7SK RNP system 51 (Fig. 4E; 265Supp.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "to be involved in HIV (Supp. Table 3), which is a highly significant enrichment (p-281 value=0.0004; Fisher's exact test), considering that the total number of HIV-related proteins is 35 in 282 the whole catRAPID library (3340 elements). The complete list of proteins includes ATP-283 dependent RNA helicase DDX1 (Q92499 also involved in Coronavirus replication 43,44 ), ATP-284 dependent RNA helicase DDX3X (O00571 also involved in Dengue and Zika Viruses), Tyrosine-285 protein kinase HCK (P08631, nucleotide binding), Arf-GAP domain and FG repeat-containing 286 protein 1 (P52594), Double-stranded RNA-specific editase 1 ADARB1 (P78563), Insulin-like 287 growth factor 2 mRNA-binding protein 1 IGF2BP1 (Q9NZI8), A-kinase anchor protein 8-like 288 AKAP8L (Q9ULX6; its partner AKAP8 is also found in Gordon et al. 49 ) Cyclin-T1 CCNT1 289 (O60563; DNA-binding) and Forkhead box protein K2 FOXK2 (Q01167; DNA-binding; Supp. 290",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "315We employed CROSS12,54  to compare the structural properties of 2800 coronaviruses and identified 316 elements conserved in SARS-CoV-2 strains. The regions containing the highest amount of structure 317 are the 5' as well as glycoproteins spike S and membrane M. 318319We found that the spike S protein domain encompassing amino acids 330-500 is highly conserved 320 across SARS-CoV-2 strains. This result suggests that spike S must have evolved to specifically 321 interact with its host partner ACE2 27 and mutations increasing the binding affinity are highly 322 infrequent. As the nucleic acids encoding for this region are enriched in double-stranded content, 323 we speculate that the structure might attract host regulatory elements, which further constrains its 324 variability. The fact that the ACE2 receptor binding site is conserved among the SARS-CoV-2 325 strains suggests that a specific drug can be designed to prevent host interaction and thus infection,326 which could work for a large number of coronaviruses. 327 328 By contrast, the highly variable region at amino acids 243-302 in spike S protein corresponds to the 329 binding site of sialic acids in MERS-CoV (see manuscript by E. Milanetti et al. \"In-Silico evidence 330 for two receptors based strategy of SARS-CoV-2\" ) 7,9,31 and could play a role in infection 30 . The 331 fact that the binding region changes in the different strains might indicate a variety of binding 332 affinities for sialic acids, which could provide clues on the specific responses in the human 333 population. Interestingly, the sialic acid binding site is absent in SARS-CoV but present in MERS-334CoV, which indicates that it must have evolved recently. 335 336 Both our sequence and structural analyses of spike S protein indicate that human engineering of 337 SARS-CoV-2 is highly unlikely. 338 339 author/funder. All rights reserved. No reuse allowed without permission.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "hydrolytic deamination of adenosine to inosine and might take part in the chemical 344 modification of SARS-CoV-2 RNA 42 . Other relevant interactions are XRCC5 and XRCC6 345 members of the HDP-RNP complex interacting with ATP-dependent RNA helicase DHX9 55 and 346 2-5A-dependent ribonuclease RNASEL that has antiviral effects through a combination of cleavage 347 of single-stranded viral RNAs, inhibition of protein synthesis, induction of apoptosis, overlap exists with the list of protein interactions reported by Gordon et al. 49 , and 351 among the candidate partners we identified AKAP8L, involved as a DEAD/H-box RNA helicase 352 binding in HIV infection 50 . In general, proteins involved in the replication of retroviruses such as 353 HIV are expected to play a different role in mechanisms related to SARS-CoV-2 that uses its own 354 RNA-dependent RNA polymerase, yet it must be considered that SARS-CoV-2 represses host gene 355 expression through a number of unknown mechanisms, which could imply sequestration of 356 transcriptional components, such as specific polymerase II genes and splicing factors 42 . Thus, the 357 link to HIV and other viruses such as HBV and Influenza could be key to identify targets for the 358 repurposing of drugs for treatment of SARS-CoV-2 infection 53 . 359 360",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "the secondary structure of transcripts using CROSS (Computational Recognition of 383 Secondary Structure 12,54 . CROSS was developed to perform high-throughput RNA profiling. The 384 algorithm predicts the structural profile (single-and double-stranded state) at single-nucleotide 385 resolution using sequence information only and without sequence length restrictions (scores > 0 386 indicate double stranded regions). We used the Vienna method 25 to further investigate the RNA 387 secondary structure of minima and maxima identified with CROSS 12 . CROSSalign 12,54 an algorithm based on Dynamic Time Warping (DTW), to check and 392 evaluate the structural conservation between different viral genomes 12 . CROSSalign was 393 previously employed to study the structural conservation of ~5000 HIV genomes. SARS-CoV-2 394 fragments (1000 nt, not overlapping) were searched inside other complete genomes using the OBE 395 (open begin and end) module, in order to search a small profile inside a larger one. The lower the 396 structural distance, the higher the structural similarities (with a minimum of 0 for almost identical 397 secondary structure profiles). The significance is assessed as in the original publication 12 sequences of the complete genomes of SARS-CoV-2 were downloaded from Virus 402 Pathogen Resource (VIPR; www.viprbrc.org), for a total of 62 strains. Regarding the overall 403 coronaviruses, the sequences were downloaded from NCBI selecting only complete genomes, for a 404 total of 2862 genomes. The reference Wuhan sequence with available annotation 405 (EPI_ISL_402119) was downloaded from Global Initiative on Sharing All Influenza Data.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "35 , an algorithm for the analysis of Gene Ontology annotations, was used to determine 433 which fragments present enrichment in GO terms related to viral processes. Analysis of functional 434 annotations was performed in parallel with GeneMania 39 . Clustal W 26 for 62 SARS-CoV-2 strains alignments and Tcoffee 29 for spike S proteins 440 alignments. The variability in the spike S region was measured by computing Shannon entropy on 441 translated RNA sequences. The Shannon entropy is computed as follows: 442 443 S(a) = -Sum_i P(a,i) log P(a,i) 444 445 author/funder. All rights reserved. No reuse allowed without permission.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "Wu, A. et al. Genome Composition and Divergence of the Novel Coronavirus (2019-nCoV) 504 Originating in China. Cell Host Microbe 27, 325-328 (2020). 505 25. Lorenz, R. et al. ViennaRNA Package 2.0. Algorithms Mol. Biol. 6, 26 (2011). 506 26. Madeira, F. et al. The EMBL-EBI search and sequence analysis tools APIs in 2019. Nucleic 507 Acids Res. 47, W636-W641 (2019). 508 27. Andersen, K. G., Rambaut, A., Lipkin, W. I., Holmes, E. C. & Garry, R. F. The proximal origin 509 of SARS-CoV-2. Nat. Med. 1-3 (2020) doi:10.1038/s41591-020-0820-9. 510 28. Zhou, P. et al. A pneumonia outbreak associated with a new coronavirus of probable bat origin. 511 Nature 579, 270-273 (2020). 512 29. Di Tommaso, P. et al. T-Coffee: a web server for the multiple sequence alignment of protein 513 and RNA sequences using structural information and homology extension. Nucleic Acids Res. 514 39, W13-W17 (2011). 515 30. Qing, E., Hantak, M., Perlman, S. & Gallagher, T. Distinct Roles for Sialoside and Protein 516 Receptors in Coronavirus Infection. mBio 11, (2020). 517 31. Milanetti, E. et al. In-Silico evidence for two receptors based strategy of SARS-CoV-2. 518 ArXiv200311107 Phys. Q-Bio (2020). 519 32. Gal\u00e1n, C. et al. Host cell proteins interacting with the 3' end of TGEV coronavirus genome 520 influence virus replication. Virology 391, 304-314 (2009). 521 33. Lu, K., Heng, X. & Summers, M. F. Structural determinants and mechanism of HIV-1 genome 522 packaging. J. Mol. Biol. 410, 609-633 (2011). 523 34. Fehr, A. R. & Perlman, S. Coronaviruses: An Overview of Their Replication and Pathogenesis. 524 Methods Mol. Biol. Clifton NJ 1282, 1-23 (2015). 525 multiple datasets. BMC Genomics 16, 1071 (2015). 528 36. UniProt: a worldwide hub of protein knowledge. Nucleic Acids Res. 47, D506-D515 (2019). 529 37. Castello, A. et al. Insights into RNA biology from an atlas of mammalian mRNA-binding 530 proteins. Cell 149, 1393-1406 (2012). 531 38. Bell, N. M. & Lever, A. M. L. HIV Gag polyprotein: processing and early viral particle 532 assembly. Trends Microbiol. 21, 136-144 (2013). 533 39. Warde-Farley, D. et al. The GeneMANIA prediction server: biological network integration for 534 gene prioritization and predicting gene function. Nucleic Acids Res. 38, W214-W220 (2010). 535 40. Hayward, S. D. Viral interactions with the Notch pathway. Semin. Cancer Biol. 14, Dudley, J. P., Mertz, J. A., Rajan, L., Lozano, M. & Broussard, D. R. What retroviruses teach 538 us about the involvement of c-Myc in leukemias and lymphomas. Leukemia 16, Kim, D. et al. The architecture of SARS-CoV-2 transcriptome. bioRxiv 2020.03.12.988865 541 (2020) doi:10.1101/2020.03.12.988865. 542 43. Fang, J. et al. A DEAD box protein facilitates HIV-1 replication as a cellular co-factor of Rev. 543 Virology 330, 471-480 (2004). 544 44. Xu, L. et al. The cellular RNA helicase DDX1 interacts with coronavirus nonstructural protein 545 14 and enhances viral replication. J. Virol. 84, 8571-8583 (2010). 546 45. Carlson, K. A. et al. Molecular characterization of a putative antiretroviral transcriptional 547 factor, OTK18. J. Immunol. Baltim. Md 1950 172, 381-391 (2004). 548 46. Ivanov, D. et al. Cyclin T1 domains involved in complex formation with Tat and TAR RNA are 549 critical for tat-activation. J. Mol. Biol. 288, 41-56 (1999). 550 author/funder. All rights reserved. No reuse allowed without permission.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF10": {
+            "text": "conserved region falls inside the spike S genomic locus. The inset shows thermodynamic structural 589 variability (positional entropy) within regions encompassing nucleotides 23000-24000 along with 590 the centroid structure and free energy. 591 Sequence and structural comparison of human SARS-CoV-2 strains. (A) Strong sequence 593 conservation (Clustal W multiple sequence alignments 35 ) is observed in coding regions, including 594 the region between nucleotides 23000 and 24000 of spike S protein. High structural variability (red 595 bars on top) is observed for both the UTRs and for nucleotides between 21000 and 22000 as well as 596 24000 and 25000, associated with the S region. The rest of the regions are significantly conserved 597 at a structural level. (B) The sequence variability (Shannon entropy computed on Tcoffee multiple 598 sequence alignments 29 ) in the spike S protein indicate conservation between amino-acids 460 and 599 520 (blue box) binding to the host receptor angiotensin-converting enzyme 2 ACE2. The region 600 encompassing amino-acids 243 and 302 is highly variable and is implicated in sialic acids in 601 MERS-CoV (red box). The S1 and S2 domains of Spike S protein are displayed. 602 Characterization of protein interactions with SARS-CoV-2 RNA, (A) Number of RBP 604 interactions for different SARS-CoV-2 regions (colours indicate different catRAPID 16,17 confidence 605 levels: Z=1.5 or low Z=1.75 or medium and Z=2.0 or high; regions with scores lower than Z=1.5 606 are omitted); (B) Enrichment of viral processes in the 5' of SARS-CoV-2 (precision = term 607 precision calculated from the GO graph structure lvl = depth of the term; go_term = GO term 608 identifier, with link to term description at AmiGO website ; description = Textual label for the term; 609 e/d = e signifies enrichment of the term, d signifies depletion compared to the population; %_set = 610 coverage on the provided set -how much of the set is annotated with the GO?; %_pop = coverage 611 of the same term on the population; p_bonf = p-value of the enrichment. To correct for multiple 612 author/funder. All rights reserved. No reuse allowed without permission.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": ". More 131 in SARS-CoV-2 than other coronaviruses (average structural content for SARS-CoV-2 = 0.56 in the 138 5' and 0.49 in the 3'; other coronaviruses 0.49 in the 5' and 0.42 in the 3'). 139 140 141 Sequence and structural comparisons among SARS-CoV-2 strains indicate conservation of 142 the ACE2 binding site and high variability in a region potentially interacting with sialic acids. 143 To better investigate the sequence conservation of SARS-CoV-2, we compared 62 strains isolated 145 form different countries during the pandemic (including China, USA, Japan, Taiwan, India, Brazil, 146 Sweden, and Australia; data from NCBI and in VIPR www.viprbrc.org; Materials and Methods). 147Our analysis aims to determine the relationship between structural content and sequence 148Using Clustal W for multiple sequence alignments 26 , we observed general conservation of the 151",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": ". We speculate that sequestration of elements binding to the 7S RNA is part of a 266 viral program aiming to host genes 42 . 267Moreover, by analysing the RNA interaction potential of all the 332 proteins byGordon et al. 49  , 269 catRAPID identified 38 putative binders at the 5' (Z score \u2265 1.5; 27 occurring exclusively in the 5' 270and not in other regions of the RNA) 16 , including Serine/threonine-protein kinase TBK1 271 author/funder. All rights reserved. No reuse allowed without permission.The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.28.013789 doi: bioRxiv preprint (Q9UHD2), among which 10 RBPs (as reported in Uniprot) such as: Splicing elements U3 small 272 nucleolar ribonucleoprotein protein MPP10 (O00566) and Pre-mRNA-splicing factor SLU7 273 (O95391), snRNA methylphosphate capping enzyme MEPCE involved in negative regulation of 274 transcription by RNA polymerase II 7SK (Q7L2J0) 52 , Nucleolar protein 10 NOL10 (Q9BSC4) and 275 protein kinase A Radixin RDX (P35241; in addition to those mentioned above; Supp.Table 2). 276HIV-related RBPs are significantly enriched in the 5' interactions 278",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "hits out of 7 in the whole catRAPID library; Fisher's exact test), Nuclear receptor subfamily 5 295 group A member 2 NR5A2 (DNA-binding; O00482), Interferon-induced, double-stranded RNA-296 activated protein kinase EIF2AK2 (P19525), and SRSF protein kinase 1 SRPK1 (Q96SB4) as well 297as Influenza (p-value=0.03; 2 hits out of 4; Fisher's exact test), Synaptic functional regulator FMR1 298 (Q06787) and RNA polymerase-associated protein RTF1 homologue (Q92541; Supp.Table 3). By 299 contrast, no significant enrichments were found for other viruses such as for instance Ebola. 300Interestingly, specific drugs are reported in ChEMBL 53 for HIV-related proteins ATP-dependent 302 author/funder. All rights reserved. No reuse allowed without permission.Our study is motivated by the need to identify molecular mechanisms involved in Covid-19 312 spreading. Using advanced computational approaches, we investigated the structural content of 313 SARS-CoV-2 RNA and predicted human proteins that bind it. 314",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "The authors would like to thank Jakob Rupert,Dr. Mattia Miotto, Dr Lorenzo Di Rienzo, Dr. 366 Alexandros Armaos, Dr. Alessandro Dasti, Dr. Elias Bechara, Dr. Claudia Giambartolomei and Dr. 367 The research leading to these results has been supported by European Research Council 370 (RIBOMYLOME_309545 to GGT, ASTRA_855923 to GGT), Spanish Ministry of Economy and 371 Competitiveness BFU2017-86970-P, the H2020 projects INFORE_825080 and IASIS_727658, as 372 well as the collaboration with Peter St. George-Hyslop financed by the Wellcome Trust. 373 Contributions. GGT and RDP conceived the study. AV carried out catRAPID analysis of protein 375 interactions, RDP calculated CROSS structures of coronaviruses, GGT, MM and EM performed and 376 analysed sequence alignments. AV, RDP and GGT wrote the paper. 377 378 author/funder. All rights reserved. No reuse allowed without permission.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.Fig. 1. Using the CROSS approach 12,54 , we studied the structural content of SARS-CoV-2. We 581 found the highest density of double-stranded regions in the 5' (nucleotides 1-253), membrane M 582 protein (nucleotides 26523-27191), and the spike S protein (nucleotides 23000-24000). Strong 583 match is observed between CROSS and Vienna analyses (centroid structures shown, indicating that 584 regions with the highest structural content have the lowest free energies. 585 Fig. 2. We employed the CROSSalign approach 12,54 to compare the Wuhan strain MN908947 with 587 other coronaviruses (1387 strains, including SARS-CoV and MERS-CoV) indicates that the most 588",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF5": {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.28.013789 doi: bioRxiv preprint testing bias, we are applying Bonferroni correction) 35 ; (C) Viral processes are the third largest 613 cluster identified in our analysis; (D) Protein interactions with the 5' of SARS-CoV-2 RNA (inner 614 circle) and associations with other human genes retrieved from literature (green: genetic 615 associations; pink: physical associations); (E) Number of RBP interactions identified by Gordon et 616 al. 49 for different SARS-CoV-2 regions (see panel A for reference). 617 author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.28.013789 doi: bioRxiv preprint Supp. Figure 1. We employed CROSSalign 12,54 was to compare the Wuhan strain MN908947 621 with other coronaviruses (2800 strains, including SARS-CoV, MERS-CoV and coronaviruses 622 having as host other species, such as bats). The result highlights that the most conserved region 623 falls inside the spike S genomic locus. 624 Supp. Table 1. 1) catRAPID 16,17 score for interactions with fragment 1; 2) GO 35 and Uniprot 626 annotations of viral proteins interacting with fragment 1 and ; 3) catRAPID score for interactions 627 with fragment 2; 4) GO annotations of viral proteins interacting with fragment 2; 5) catRAPID 628 score for interactions with fragment 29; 6) GO annotations of viral proteins interacting with 629 Supp. Table 2. RBP interactions from Gordon et al. 49 classified according to catRAPID scores. 632 GO 35 and Uniprot 36 annotations are reported. 633 Supp. Table 3. RBPs significantly enriched in the 5' interactions and HIV, HBV and Influenza 635 author/funder. All rights reserved. No reuse allowed without permission.The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.03.28.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

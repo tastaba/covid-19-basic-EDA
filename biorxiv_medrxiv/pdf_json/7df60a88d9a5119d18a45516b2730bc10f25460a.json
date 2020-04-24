@@ -1,0 +1,322 @@
+{
+    "paper_id": "7df60a88d9a5119d18a45516b2730bc10f25460a",
+    "metadata": {
+        "title": "The global population of SARS-CoV-2 is composed of six major subtypes",
+        "authors": [
+            {
+                "first": "Ivair",
+                "middle": [
+                    "Jos\u00e9"
+                ],
+                "last": "Morais",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "J\u00fanior",
+                "middle": [],
+                "last": "Ad",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Richard",
+                "middle": [
+                    "Costa"
+                ],
+                "last": "Polveiro",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Gabriel",
+                "middle": [],
+                "last": "Medeiros Souza",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Instituto de Ci\u00eancias Agr\u00e1rias/Universidade Federal de Uberl\u00e2ndia",
+                    "location": {
+                        "postCode": "38410-337",
+                        "settlement": "Uberl\u00e2ndia",
+                        "region": "MG"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Daniel",
+                "middle": [],
+                "last": "Inserra",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Instituto de Ci\u00eancias Agr\u00e1rias/Universidade Federal de Uberl\u00e2ndia",
+                    "location": {
+                        "postCode": "38410-337",
+                        "settlement": "Uberl\u00e2ndia",
+                        "region": "MG"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Bortolin",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Tetsuo",
+                "middle": [],
+                "last": "Sassaki",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Alison",
+                "middle": [],
+                "last": "Talis",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Martins",
+                "middle": [],
+                "last": "Lima A#",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Instituto de Ci\u00eancias Agr\u00e1rias/Universidade Federal de Uberl\u00e2ndia",
+                    "location": {
+                        "postCode": "38410-337",
+                        "settlement": "Uberl\u00e2ndia",
+                        "region": "MG"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Martins",
+                "middle": [],
+                "last": "Lima",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "The World Health Organization characterized the COVID-19 as a pandemic in March 2020, the second 19 pandemic of the 21 st century. Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) is a 20 positive-stranded RNA betacoronavirus of the family Coronaviridae. Expanding virus populations, as 21 that of SARS-CoV-2, accumulate a number of narrowly shared polymorphisms imposing a 22 confounding effect on traditional clustering methods. In this context, approaches that reduce the 23 complexity of the sequence space occupied by the SARS-CoV-2 population are necessary for a robust 24 clustering. Here, we proposed the subdivision of the global SARS-CoV-2 population into sixteen well-25 defined subtypes by focusing on the widely shared polymorphisms in nonstructural (nsp3, nsp4, nsp6, 26 nsp12, nsp13 and nsp14) cistrons, structural (spike and nucleocapsid) and accessory (ORF8) genes.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Six virus subtypes were predominant in the population, but all sixteen showed amino acid 28 replacements which might have phenotypic implications. We hypothesize that the virus subtypes 29 detected in this study are records of the early stages of the SARS-CoV-2 diversification that were 30 randomly sampled to compose the virus populations around the world, a typical founder effect. The 31 genetic structure determined for the SARS-CoV-2 population provides substantial guidelines for 32 maximizing the effectiveness of trials for testing the candidate vaccines or drugs.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Main",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "In December 2019, a local pneumonia outbreak of initially unknown etiology was detected in 35 Wuhan (Hubei, China) and quickly determined to be caused by a novel coronavirus 1 , named severe 36 acute respiratory syndrome coronavirus 2 (SARS-CoV-2) 2 and the disease as COVID-19 3 . SARS-",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "CoV-2 is classified in the family Coronaviridae, genus Betacoronavirus, which comprises enveloped, 38 positive stranded RNA viruses of vertebrates 2 . Two-thirds of SARS-CoVs genome is covered by the 39 ORF1ab, that encodes a large polypeptide which is cleaved into 16 nonstructural proteins (NSPs) 40 involved in replication-transcription in vesicles from endoplasmic reticulum (ER)-derived 41 membranes 4,5 . The last third of the virus genome encodes four essential structural proteins: spike (S), 42 envelope (E), membrane (M), nucleocapsid (N) and several accessory proteins that interfere with the 43 host innate immune response 6 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Populations of RNA viruses evolve rapidly due to their large population sizes, short generation 45 times, and high mutation rates of viruses, this latter is a consequence of the RNA-dependent RNA 46 polymerase (RdRP) which lacks the proofreading activity 7 . In fact, virus populations are composed of 47 a broad spectrum of closely related genetic variants resembling one or more master sequences 8-10 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Mutation rates inferred for SARS-CoVs are considered moderate 11,12 due to the independent 49 proofreading activity 13 . However, the large SARS-CoV genomes (from 27 to 31 kb) 14 provide to them 50 the ability to explore the sequence space 15 . In order to better understand the diversification of SARS-51 CoV-2 genomes during the pandemics (from December 2019 to March 25, 2020), we applied a simple, 52 but robust approach to reduce the complexity of the sequence space occupied by the virus population 53 by detecting its widely shared polymorphisms.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "The 767 SARS-CoV-2 genomes with high sequencing coverage obtained from GISAID 55 (https://www.gisaid.org/) and GenBank were clustered into 593 haplotypes (Supplementary Table 1) . 56 We conducted a fine-scale sequence variation analysis on the 593 genomes-containing alignment by 57 calculating the nucleotide diversity (\u03c0) using a sliding window and step size of 300 and 20 nucleotides, 58 respectively (multiple sequence alignments generated in this study are available from the authors upon 59 request). Such an approach allows to identify genomic regions of increased genetic variation 60 prevenient from polymorphic sites harboring two or more distinct nucleotide bases. Noticeably, one 61 or more large clusters of closely related sequences, when analyzed by this approach, show locally 62 increased nucleotide diversity. We observed a contrasting distribution of the genetic variation across 63 the full-length genomes of SARS-CoV-2 ( Figure 1 ) with eight segments showing increased genetic : bioRxiv preprint 3 variation, arbitrarily defined as nucleotide (nt) segments with \u03c0 \u2265 0.001 (Table 1) . Seven out of eight 65 segments had about 280 nucleotides in length, corresponding approximately to the size of a single 66 sliding window, except the S10 whose length was equivalent to two sliding windows (600 nt). To 67 further investigate the diversification of segments with contrasting content of genetic variability, we 68 constructed maximum likelihood (ML) phylogenetics trees and analyzed the diversification patterns 69 of eight segments with higher (S2, 4, 6, 8 10, 12, 14 and 16), and nine with lower (S1, 3, 5, 7, 9, 11, 70 13, 15 and 17) content of genetic variation, respectively (the ML analyses were used in this study 71 essentially as a clustering method due to the weak phylogenetic signal in the data set).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 169,
+                    "end": 177,
+                    "text": "Table 1)",
+                    "ref_id": null
+                },
+                {
+                    "start": 942,
+                    "end": 950,
+                    "text": "Figure 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 1094,
+                    "end": 1103,
+                    "text": "(Table 1)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Abstract"
+        },
+        {
+            "text": "Although the data set was composed of hundreds of SARS-CoV-2 genomes sampled from 73 around the world, in the S2-based tree we observed two clusters (Figure 2). Markedly, each cluster 74 was composed of very closely related, if not identical, sequences. Therefore, the increased content of 75 genetic variation at the S2 was a result of the inter-cluster sequence comparisons. Similar results were 76 obtained for the other seven ML-trees based on segments with increased genetic variation 77 (Supplementary Figure 1). In contrast, the ML-trees based on segments with lower content of genetic 78 variation did not show a consistent number of well-defined clusters (Supplementary Figure 2) . 79 We mapped the polymorphic sites in segments whose trees showed two well-defined clusters 80 (Table 1) . Only a few (from one to three) nt positions with polymorphisms shared by a number of 81 SARS-CoV-2 genomes could be identified within each segment with increased genetic variation.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 679,
+                    "end": 688,
+                    "text": "Figure 2)",
+                    "ref_id": null
+                },
+                {
+                    "start": 786,
+                    "end": 795,
+                    "text": "(Table 1)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Abstract"
+        },
+        {
+            "text": "These polymorphisms were henceforth referred to as 'widely shared polymorphisms' (WSPs), while 83 the remaining nt sites in virus genomes were designed as 'non widely shared polymorphisms' 84 (nWSPs). 85 We compared the topologies of the seventeen ML-trees (eight based on WSPs-containing 86 segments and nine based on segments with nWSPs, Supplementary Figures 1 and 2, respectively) . The 87 topology of trees based on WSPs-containing segments was considerably congruent indicating a 88 frequent, but not strict, co-segregation of nt at WSPs. For example, the SARS-CoV-2 reference isolate 89 (GISAID accession ID: EPI_ISL_402124, GenBank accession: MN908947) was placed in an 90 equivalent major cluster in all WSPs-containing segments-based ML-trees. In contrast, the isolate 91 EPI_ISL_416036 was placed in an equivalent minor cluster for S2, S8, S12 and S16-based ML-trees 92 and in the major cluster for S4, S6, S10 and S14-based ML-trees. On the contrary, the topology of 93 those ML-trees based on segments with nWSPs were highly incongruent suggesting that such regions 94 represent a wide mutant spectrum of narrowly shared polymorphisms. It is important to note that there 95 . : bioRxiv preprint 4 are minor clusters in nWSPs-containing segments-based ML-trees, e.g., in those for S1, S13 and S17.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 340,
+                    "end": 384,
+                    "text": "Supplementary Figures 1 and 2, respectively)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Abstract"
+        },
+        {
+            "text": "This is a consequence of our conservative threshold in which we focused on segments with \u03c0 \u2265 0.001. 97 S1, S13 and S17 also show locally increased genetic variation with \u03c0 higher than 0.0005 but lower 98 than 0.001. For example, stretches 889 -1,169; 1,409 -1,509 (within the S1); 25,403 -25,693 (S13); 99 29,538 -29,610 (S17).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Therefore, our approach reduced the complexity of the sequence space occupied by the SARS-101 CoV-2 genomes and provided a robust clustering solution based on the combination of 12 WSPs 102 (Table 1) to identify the major viral genotypes spread worldwide (Figure 3). The global population of 103 SARS-CoV-2 is structured into six major subtypes (I -VI), comprising 578 out of 593 (about 97.5%) 104 isolates analyzed in this study. The Subtype I (N=132) was represented by the combination of the most 105 frequent nucleotides at all WSPs, i.g., the canonical genotype: CCGCCACAUGGG. The SARS-CoV-106 2 reference isolate is a representative member of this subtype. Subtype IV (N=91) was represented by 107 the combination of the most frequent nucleotides at eleven out of 12 WSPs (CCUCCACAUGGG; 108 the most frequent nucleotides at each WSP are highlighted in bold and underlined). Subtypes V (N=74, 109 CUGCCACACGGG), II (N=122, UCGUCACGUGGG), III (N=101, CUGCUGUACGGG) and VI 110 (N=58, UCGUCACGUAAC) were represented by the combination of the most frequent nucleotides 111",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "at ten, nine, seven and six out of 12 WSPs, respectively. It is important to emphasize that the 112 contrasting sample sizes (Subtypes I -IV vs. VII -XVI) are not necessarily associated with fitness 113 variation and might be due to a sampling bias. For example, the three isolates composing the Subtype 114 VIII showed a genotype (CUGCCAUACGGG) very similar to that of the canonical reference isolate.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "In addition, even though our data set was composed exclusively by genomes with high sequencing 116 coverage, we cannot rule out that the virus subtypes X to XVI, which were represented by a single 117 genome might be a consequence of poor sampling or sequencing errors. 118",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "VI 58",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "VII 3",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "U [Phe] C [Ser] G [Leu] U [Leu] C [Pro] A [Tyr] C [Leu] G [Gly] U [Leu] A [Lys] A [Lys] C [Gly]"
+        },
+        {
+            "text": "VIII 3",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "C [Phe] U [Ser] U [Phe] C [Pro] C [Pro] A [Tyr] C [Leu] A [Asp] C [Ser] G [Arg] G [Arg] G [Arg]"
+        },
+        {
+            "text": "IX 2",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "C [Phe] U [Ser] G [Leu] C [Pro] C [Pro] A [Tyr] U [Leu] A [Asp] C [Ser] G [Arg] G [Arg] G [Arg]"
+        },
+        {
+            "text": "X 1 S9 S10 S11 S12 S13 S14 S16 S17 S15 . CC-BY-NC-ND 4.0 International license author/funder. It is made available under a",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "U [Phe] C [Ser] U [Phe] U [Leu] C [Pro] A [Tyr] C [Leu] G [Gly] U [Leu] A [Lys] A [Lys] C [Gly]"
+        },
+        {
+            "text": "The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.04.14.040782 doi: bioRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "U [Phe] C [Ser] U [Phe] U [Leu] C [Pro] A [Tyr] C [Leu] G [Gly] U [Leu] G [Arg] G [Arg] G [Arg"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "A new coronavirus associated with human respiratory disease in China",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Nature",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Mean pairwise number of nucleotide differences per site (nucleotide diversity, \u03c0) 189 calculated using a sliding window of 300 nucleotides across the multiple sequence alignment for 190 full-length genomes of SARS-CoV-2. The red dashed line at \u03c0 = 0.001 represents an arbitrary 191 threshold to subdivide the segments (S) with increased (S2, 4, 6, 8, 10, 12, 14 and 16) and lower 192 (S1, 3, 5, 7, 9, 11, 13,15 and 17) content of genetic variation. The SARS-CoV-2 genome 193 organization is represented on top of the plot. Maximum likelihood phylogenetic tree based on a nucleotide sequence between the 195 positions 2,872 -3,152 (S2) of the aligned SARS-CoV-2 genomes. Maximum likelihood phylogenetic tree based on 12 WSPs detected across the SARS-11. Zhao, Z. et al. Moderate mutation rate in the SARS coronavirus genome and its 245 implications. BMC Evol. Biol. 4, 1-9 (2004).246 12. Gorbalenya, A. E., Enjuanes, L., Ziebuhr, J. & Snijder, E. J. Nidovirales: Evolving the 247 largest RNA virus genome. Virus Res. 117, 17-37 (2006).248 13. Ma, Y. et al. Structural basis and functional analysis of the SARS coronavirus nsp14-nsp10 249 complex. Proc. Natl. Acad. Sci. 112, 9436-9441 (2015).250 14. Knipe, D. M. & Howley, P. M. Fields virology. Viruses and the Lung: Infections and Non-251 Infectious Viral-Linked Lung Disorders (2013). 252 15. Forni, D., Cagliani, R., Clerici, M. & Sironi, M. Molecular Evolution of Human 253 Coronavirus Genomes. Trends Microbiol. 25, 35-48 (2017).254 Dis. 196, 405-415 (2007).290 30. Cui, J., Li, F. & Shi, Z.-L. Origin and evolution of pathogenic coronaviruses. Nat. Rev. 291 Microbiol. 17, 181-192 (2019).292 31. Parker, M. M. & Masters, P. S. Sequence comparison of the N genes of five strains of the 293 coronavirus mouse hepatitis virus suggests a three domain structure for the nucleocapsid 294 protein. Virology 179, 463-468 (1990). 295 32. Huang, Q. et al. Structure of the N-Terminal RNA-Binding Domain of the SARS CoV 296 Nucleocapsid Protein. Biochemistry 43, 6059-6063 (2004). 297 33. Verheije, M. H. et al. The Coronavirus Nucleocapsid Protein Is Dynamically Associated 298 with the Replication-Transcription Complexes. J. Virol. 84, 11575-11579 (2010). 299 34. Leung, D. T. M. et al. Antibody Response of Patients with Severe Acute Respiratory 300 Syndrome (SARS) Targets the Viral Nucleocapsid. J. Infect. Dis. 190, 379-386 (2004).301 35. Sayers, E. W. et al. GenBank. Nucleic Acids Res. 47, D94-D99 (2019).302 36. Shu, Y. & McCauley, J. GISAID: Global initiative on sharing all influenza datafrom 303 vision to reality. Eurosurveillance 22, 2-4 (2017).304 37. Katoh, K., Misawa, K., Kei-ichi, K. & Miyata, T. MAFFT: a novel method for rapid 305 multiple sequence alignment based on fast Fourier transform. Nucleic Acids Res. 30,",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Characterization of the WSPs detected in genomes of SARS-CoV-2",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Amino acid composition of each virus subtype at WSP positions",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "BY-NC-ND 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.04.14.hC oV 19 Ca mb od ia 00 12 20 20 EP I ISL 411 90 2 hC oV 19 Gu an gd on g 20 SF 02 8 20 20 EP I IS L 40 39 36 hC oV 19 Wu ha n WI V0 2 20 19 EP I ISL 40 21 27 hC oV 19 Ne th er la nd s Zu id Ho lla nd 31 20 20 EP I IS L 41 55 35 hC oV 19 So uth Ko re a KU MC 02 20 20 EP I IS L 41 30 18 hCoV 19 USA WA UW100 2020 EPI ISL 416638 hCoV 19 France B2330 2020 EPI ISL 416502 hCo V 19 USA WA UW 176 202 0 EPI ISL 416 714 hC oV 19 US A WA S40 202 0 EP I ISL 417 093 hCo V 19 US A WA UW hCo V 19 US A UC CD PH UC 11 202 0 EPI ISL 413 931 hCo V 19 USA WA UW 57 202 0 EPI ISL 415 622 hCoV 19 Germ any BavP at3 2020 EPI ISL 41452 1 hCo V 19 USA WA UW 83 202 0 EPI ISL 416 439 hCoV 19 Guan gdon g 20SF 201 2020 EPI ISL 4065 38 MT1232 92.2 IQTC04 human 2020 CHN hCoV 19 USA CA CDPH UC3 2020 EPI ISL 413559 hCoV 19 Hong Kong case2 VB20017970 2020 EPI ISL 417064 hCoV 19 France IDF2256 2020 EPI ISL 416498 hC oV 19 W uh an HB CD C HB 02 20 19 EP I IS MT123293 .2 IQTC03 human 2020 CHN hCoV 19 USA WA UW46 2020 EPI ISL 415611 hC oV 19 S ha ng ha i S H 01 20 20 E P I IS L 41 45 10",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

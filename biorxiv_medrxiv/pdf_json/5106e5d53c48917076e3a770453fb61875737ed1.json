@@ -1,0 +1,2164 @@
+{
+    "paper_id": "5106e5d53c48917076e3a770453fb61875737ed1",
+    "metadata": {
+        "title": "Analysis of Ten Microsecond simulation data of SARS-CoV-2 dimeric main protease",
+        "authors": [
+            {
+                "first": "Md",
+                "middle": [
+                    "Rimon"
+                ],
+                "last": "Parves",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Science and Technology Chittagong (USTC)",
+                    "location": {
+                        "addrLine": "Foy's Lake, Khulshi-4202",
+                        "settlement": "Chittagong",
+                        "country": "Bangladesh"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yasir",
+                "middle": [
+                    "Mohamed"
+                ],
+                "last": "Riza",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Science and Technology Chittagong (USTC)",
+                    "location": {
+                        "addrLine": "Foy's Lake, Khulshi-4202",
+                        "settlement": "Chittagong",
+                        "country": "Bangladesh"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Shafi",
+                "middle": [],
+                "last": "Mahmud",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Rajshahi",
+                    "location": {
+                        "settlement": "Rajshahi",
+                        "country": "Bangladesh"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Rajib",
+                "middle": [],
+                "last": "Islam",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "The Red-Green Research Centre",
+                    "location": {
+                        "settlement": "Dhaka",
+                        "country": "Bangladesh"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Sinthyia",
+                "middle": [],
+                "last": "Ahmed",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "The Red-Green Research Centre",
+                    "location": {
+                        "settlement": "Dhaka",
+                        "country": "Bangladesh"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Bibi",
+                "middle": [
+                    "Ashiana"
+                ],
+                "last": "Evy",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Science and Technology Chittagong (USTC)",
+                    "location": {
+                        "addrLine": "Foy's Lake, Khulshi-4202",
+                        "settlement": "Chittagong",
+                        "country": "Bangladesh"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Mohammad",
+                "middle": [
+                    "A"
+                ],
+                "last": "Halim",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "The Red-Green Research Centre",
+                    "location": {
+                        "settlement": "Dhaka",
+                        "country": "Bangladesh"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "The dimeric main protease of SARS-CoV-2, has become a crucial target for inhibiting/modulating its catalytic activity. However, understanding of its conformational change, and atomistic flexibility, is very much lucrative for designing/developing small molecules. Fortunately, huge data has been revealed by a research group, performed about ten-microsecond molecular dynamics to paving the way for understanding the structural complexity of protease. Herein, we have done the basic structural analysis, advanced flexibility and conformational analysis like PCA, for revealing out the regions and residues, which are mostly flexible and likely to be responsible for different conformation of protease protein.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The COVID-19 (2019-nCoV) outbreak was declared a pandemic by the World Health Organization (WHO) on March 11 th , 2020. Coronaviruses (CoVs) are single-stranded positive-sense RNA viruses that can cause several pulmonary diseases in mammals (Masters, 2006; Weiss & Navas-Martin, 2005 ). This new virus was originally named SARS-CoV-2 (Gorbalenya et al., 2020) , since its RNA genome was similar to the SARS coronavirus (about 82%). Furthermore, both viruses belonged to the clade b of the genus Betacoronavirus (Wu et al., 2020; Zhou et al., 2020) . What initially started in Wuhan as a localized incident of the virus leaping across species, has led to an explosive growth in the number of cases due to its astonishing human-to-human mode of transmission, that has led to the virus spreading beyond its borders into the global community. As of April 4, there has been a confirmed number of 1,170,159 cumulative cases globally, of which 63,832 are deaths. It's not all bad news as there has been about 237,978 confirmed cases of patients who have recovered (WHO, n.d.) .",
+            "cite_spans": [
+                {
+                    "start": 241,
+                    "end": 256,
+                    "text": "(Masters, 2006;",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 257,
+                    "end": 283,
+                    "text": "Weiss & Navas-Martin, 2005",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 334,
+                    "end": 359,
+                    "text": "(Gorbalenya et al., 2020)",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 511,
+                    "end": 528,
+                    "text": "(Wu et al., 2020;",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 529,
+                    "end": 547,
+                    "text": "Zhou et al., 2020)",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 1057,
+                    "end": 1068,
+                    "text": "(WHO, n.d.)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The symptoms of COVID-19 bare striking similarities to the pneumonia-like clinical features of those reported from the MERS-CoV and SARS-CoV. Infected patients typically display shortness of breath (dyspnea), dry cough and fever, with a few patients exhibiting upper respiratory tract symptoms such as rhinorrhea and sore throats (Assiri et al., 2013; Lee et al., 2003; Zhou et al., 2020) . However, COVID-19 differs from MERS-CoV and SARS-CoV in that, patients rarely showed any signs of diarrhea-like enteric symptoms (Assiri et al., 2013) . The main mode of transmission of COVD-19 is by human-to-human contact through airborne droplets (from coughing or sneezing) or through contact with infected individuals (WHO, n.d.) , which is why the WHO suggested 'Social Distancing' as the best preventative measure for limiting the spread of the disease and flatting down the curve to reduce the load on the healthcare system and to avoid preventable deaths. The mean incubation period of COVID-19 is estimated to be around 4-7 days; therefore, it is speculated that infected individuals who carry COVID-19 may be able to infect other individuals unbeknownst since they may have little to no symptoms (i.e. they are asymptomatic) (WHO, n.d.). To combat this deadly pandemic, attempts to streamline the development of new vaccines and antiviral therapeutics are underway all over the Globe.",
+            "cite_spans": [
+                {
+                    "start": 330,
+                    "end": 351,
+                    "text": "(Assiri et al., 2013;",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 352,
+                    "end": 369,
+                    "text": "Lee et al., 2003;",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 370,
+                    "end": 388,
+                    "text": "Zhou et al., 2020)",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 520,
+                    "end": 541,
+                    "text": "(Assiri et al., 2013)",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 713,
+                    "end": 724,
+                    "text": "(WHO, n.d.)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "COVID-19 is a 800 kDa polypeptide with a large genome that has a propensity to be cleaved by various proteases (such as chymotrypsin-like proteases and papain-like proteases). These proteases play a critical role in COVID-19's non-structural protein formation which in turn plays a vital role in the virus' replication (Haider et al., 2020) . The main protease of coronaviruses, M pro (also known as 3CL pro ), is one of the best characterized drug targets (Anand et al., 2003) . This enzyme in particular (along with papain-like proteases) is essential for the processing of polyproteins from the viral RNA (Hilgenfeld, 2014). Inhibition of this enzyme's activity would effectively block viral replication .",
+            "cite_spans": [
+                {
+                    "start": 319,
+                    "end": 340,
+                    "text": "(Haider et al., 2020)",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 457,
+                    "end": 477,
+                    "text": "(Anand et al., 2003)",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The M pro operates at 11 cleavage sites on the large polyprotein 1ab (replicase 1ab, ~790 kDa), with the recognition sequence at most sites being Leu-Gln\u2193(Ser, Ala, Gly) (\u2193 marks the cleavage site) . What is furthermore promising is that the inhibitors developed against these proteases are most likely going to be non-toxic since human proteases do not share any similar cleavage specificity . Therefore, these proteases are a promising target site for the development of antiviral drugs for the treatment of COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The total ten-microsecond simulated trajectories of SARS-CoV-2 dimeric main protease were retrieved from the dataset made available by the research group (KOMATSU, Teruhisa S.; KOYAMA, Yohei M.; OKIMOTO, Noriaki; MORIMOTO, Gentaro; OHNO, Yousuke; TAIJI, 2020). The Gromacs program (Abraham et al., 2015) was used for performing basic structural analysis. Subsequently, the trajectories were converted to dcd format by VMD (Humphrey et al., 1996) , before being analyzed by Bio3d program. The PCA (principal component analysis), were analyzed through Bio3d program (Grant et al., 2006) , using the method as described before (Dash et al., , 2020 .",
+            "cite_spans": [
+                {
+                    "start": 281,
+                    "end": 303,
+                    "text": "(Abraham et al., 2015)",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 418,
+                    "end": 445,
+                    "text": "VMD (Humphrey et al., 1996)",
+                    "ref_id": null
+                },
+                {
+                    "start": 564,
+                    "end": 584,
+                    "text": "(Grant et al., 2006)",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 624,
+                    "end": 644,
+                    "text": "(Dash et al., , 2020",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Methodology"
+        },
+        {
+            "text": "The RMSD profile of the Apo protein was evaluated at the atomic scale to understand the overall stability and performance of the systems. The conformational variation and flexibility reflected by the root mean square deviation value of the protein structure where small fluctuation denotes fewer fluctuations Kumar et al., 2019) . From Figure 1a ) the RMSD of the protein deviate much more at the initial phase as the flexible nature of the protein was higher. However, after a greater degree of fluctuation in the first 2 microseconds, the protein structure gained its rigid nature and did not fluctuate much during the rest of the simulation periods.",
+            "cite_spans": [
+                {
+                    "start": 309,
+                    "end": 328,
+                    "text": "Kumar et al., 2019)",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 336,
+                    "end": 345,
+                    "text": "Figure 1a",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Conformational analysis"
+        },
+        {
+            "text": "However, the rising value of SASA (Figure 1d ) signs the expanding nature of the protein system. From the beginning stage (0-0.5\u00b5s) the SASA value was stable and thereafter a sharp decrease of the SASA value was observed. However, it began to rise again after 1.5\u00b5s and declined again. This tendency was seen till 6.5\u00b5s and the complex finally was stable at (250 \u01fa 2 -260 \u01fa 2 ) range.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 34,
+                    "end": 44,
+                    "text": "(Figure 1d",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Conformational analysis"
+        },
+        {
+            "text": "Conversely, the tightness of the packaging system of protein complex assessed through the radius of gyration or Rg value . Like the SASA profile, Rg exhibited a similar trend at the beginning of simulation (Figure 1c) . However, after 0.5\u00b5s the Rg decreases a little bit and has a similar range of Rg value till 2\u00b5s; after then, the protein system exhibits a somewhat similar profile. Interestingly, the Rg value deviates more in 5-6.5\u00b5s and began to slightly increasing trend till 10\u00b5s.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 206,
+                    "end": 217,
+                    "text": "(Figure 1c)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Conformational analysis"
+        },
+        {
+            "text": "However, for understanding the regions of protein fluctuated during the simulation, the RMSF of A and B chain was evaluated (Figure 1b) . Initially, in beta turn region (40-55) higher peak was observed and interestingly, both A and B chains showed a similar trend among these amino acid regions. Likewise, in the active site cavity (Arg188-Gln192) especially in in gamma turn region, there higher RMSF profile was observed. Moreover, another beta-turn and helix region (220-270) was seemed to show higher fluctuations compared to other regions and interestingly, in the helix region A chain had a higher level of RMSF profile than B chain. Furthermore, the snapshots were taken from the trajectory, especially from the potential variations time frame before perform superimposition (Figure 1e ). This figure, illustrates, how different variations were created at different times. The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.04.10.036020 doi: bioRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 124,
+                    "end": 135,
+                    "text": "(Figure 1b)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 782,
+                    "end": 792,
+                    "text": "(Figure 1e",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Conformational analysis"
+        },
+        {
+            "text": "Additionally, Principle component analysis (PCA) was performed. The PCA analysis can convert the highdimensional data of protein dynamics into the low-dimensional space to obtain a series of eigenvectors and eigenvalues that reflect overall motions in the protein (Shukla & Singh, 2019; Yan et al., 2018) . The PCA can be applied to any system and permits to study the influence of any varying parameters, by reducing the complexity of the collective motion (Garc\u00eda, 1992; Kitao et al., 1991; Kitao & Go, 1999) , which is associated with the phase space behavior related to protein functions and stability. Therefore, it is often used to characterize different conformational variances, which are involved in protein folding, open-close mechanism of ion channels, and conformational dynamics (Grottesi et al., 2005; Maisuradze et al., 2009 Maisuradze et al., , 2010 Spellmon et al., 2016) . The first 34 PCs of the protein accounted for 47.49%, the total variations. The first PC1 pdbs were rendered (Figure 2) to getting insights into the regions of protein being fluctuated during the simulation and Figure 2 depicts conformational variations on timestep. It can be seen from Figure 2 that, residues ranging from 15-45, 58-85, 116-125, 131-145, 165-178, 183-201 (mostly active site) , of B chain of dimeric protease have demonstrated highest flexibility than A chain. But notably higher fluctuations were observed for A chain, within the residues ranging from 47-49, 202-216, 219-273, 274-299. Thus, this compressed analysis supports earlier RMSF calculation. The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.04.10.036020 doi: bioRxiv preprint",
+            "cite_spans": [
+                {
+                    "start": 264,
+                    "end": 286,
+                    "text": "(Shukla & Singh, 2019;",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 287,
+                    "end": 304,
+                    "text": "Yan et al., 2018)",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 458,
+                    "end": 472,
+                    "text": "(Garc\u00eda, 1992;",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 473,
+                    "end": 492,
+                    "text": "Kitao et al., 1991;",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 493,
+                    "end": 510,
+                    "text": "Kitao & Go, 1999)",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 792,
+                    "end": 815,
+                    "text": "(Grottesi et al., 2005;",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 816,
+                    "end": 839,
+                    "text": "Maisuradze et al., 2009",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 840,
+                    "end": 865,
+                    "text": "Maisuradze et al., , 2010",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 866,
+                    "end": 888,
+                    "text": "Spellmon et al., 2016)",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 1215,
+                    "end": 1284,
+                    "text": "15-45, 58-85, 116-125, 131-145, 165-178, 183-201 (mostly active site)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1462,
+                    "end": 1495,
+                    "text": "47-49, 202-216, 219-273, 274-299.",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1000,
+                    "end": 1010,
+                    "text": "(Figure 2)",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 1102,
+                    "end": 1110,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 1178,
+                    "end": 1186,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Residual flexibility analysis"
+        },
+        {
+            "text": "Since it been told that two residues; GLU290 of A chain and ARG4 of B chain, contribute to the dimerization of protease, we attempted to understand how was their interaction during the whole simulation. We found that several higher distance at 1.90 \u00b5s, 2. 001-2.004 \u00b5s, 3.159 \u00b5s, 3.26 \u00b5s, 3.396 \u00b5s, 3.448 \u00b5s, 5.207 \u00b5s, and 8.851 \u00b5s. Thus, the conformers resembling the major distance might reveal their contribution to dimerization. ",
+            "cite_spans": [
+                {
+                    "start": 256,
+                    "end": 328,
+                    "text": "001-2.004 \u00b5s, 3.159 \u00b5s, 3.26 \u00b5s, 3.396 \u00b5s, 3.448 \u00b5s, 5.207 \u00b5s, and 8.851",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Salt-Bridge analysis"
+        },
+        {
+            "text": "Molecular dynamics has become an attractive method for understanding possible or reliable biologically relevant protein conformation before revealing the structural complexity. By understanding atomistic flexibility, a structural biologist and medicinal chemist are continuously fixing their target to come with a better drug candidate or other therapeutic agents. However, with the retrieval of ten microsecond simulation data, we tried to simplify a few basic structural properties of the dimeric main protease of Covid-19. Thus, we have analyzed different properties, such as RMSD, RMSF, SASA, Rg, and PCA (Figure 1 and Figure  2 ). The RMSD was analyzed to observe the stability of the protein during the simulation time. The RMSD revealed strong stability of the protein after 1.8 \u00b5s, and till this time, the convergence of protein conformation was not good. However, The Rg and SASA analysis exposed higher and lower fluctuations mostly by five to seven microseconds, suggesting that protein might have gone folding state, the higher degree of fluctuation in Rg indicates less compactness or rigidity due to protein folding or upon ligand binding, whereas the similar trends in SASA indicate protein expansion. A simple atomic fluctuation might change molecular shape, which may affect SASA. So, RMSF analysis could bring out some important information on residual or atomic flexibility, that might contribute to different conformational states. As shown in Figure 2 , the residues, which exhibit a higher contribution to the PC1 score, have been plotted, which are likely to change protein conformer. However, the catalytic residues as resided the gap between domains I (residues 8-101), and II (residues 102-184) are not deemed to be most flexible as compared to others. Until now, the common residues that interact with antiviral compounds or drugs are mostly THR24, THR25, THR26, LEU27, HIS41, MET49, TYR54, PHE140, LEU141, ASN142, GLY143, SER144, CYS145, HIS163, HIS164, MET165, GLU166, LEU167, PRO168, ASP187, ARG188 GLN189, THR190, ALA191, and GLN192, among which, HIS41 and CYS145 are two key hydrophobic catalytic . CC-BY-NC-ND 4.0 International license author/funder. It is made available under a The copyright holder for this preprint (which was not peer-reviewed) is the . https://doi.org/10.1101/2020.04.10.036020 doi: bioRxiv preprint residues . However, the main key catalytic residues are found to be less flexible, which was approximately ~1.25\u00c5 for HIS41, and ~0.90 \u00c5 for CYS145 compared to other residues.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 609,
+                    "end": 618,
+                    "text": "(Figure 1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 623,
+                    "end": 632,
+                    "text": "Figure  2",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 1464,
+                    "end": 1472,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "This study concludes with a very primary understanding of SARS-CoV-2 dimeric main protease. Total conformers generated by MD protocol, was very much related to each other. Although few major deviations were marked from RMSD, but those did not remain afterward. However, this study found a significant change in residual flexibility and its contribution to possible different conformers, as explained in RMSF and PCA analysis. The next version of the analysis will reveal the dimerization mechanism, dynamic crosscorrelation matrix, and detailed salt bridge analysis.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "GROMACS: High performance molecular simulations through multi-level parallelism from laptops to supercomputers. SoftwareX, 1-2, 19-25",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Abraham",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Murtola",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Schulz",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "P\u00e1ll",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Hess",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Lindahl",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.softx.2015.06.001"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Coronavirus main proteinase (3CLpro) Structure: Basis for design of anti-SARS drugs",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Anand",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ziebuhr",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Wadhwani",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Mesters",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Hilgenfeld",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Science",
+            "volume": "300",
+            "issn": "",
+            "pages": "1763--1767",
+            "other_ids": {
+                "DOI": [
+                    "10.1126/science.1085658"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Epidemiological, demographic, and clinical characteristics of 47 cases of Middle East respiratory syndrome coronavirus disease from Saudi Arabia: A descriptive study. The Lancet Infectious Diseases",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Assiri",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Al-Tawfiq",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Al-Rabeeah",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Al-Rabiah",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Al-Hajjar",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Al-Barrak",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Flemban",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Al-Nassir",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Balkhy",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Al-Hakeem",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Makhdoom",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Zumla",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Memish",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "",
+            "volume": "13",
+            "issn": "",
+            "pages": "752--761",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S1473-3099(13)70204-4"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Structural and Dynamic Characterizations Highlight the Deleterious Role of SULT1A1 R213H Polymorphism in Substrate Binding",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Dash",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ali",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Dash",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Azad",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Hosen",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Hannan",
+                    "suffix": ""
+                },
+                {
+                    "first": "I.-S",
+                    "middle": [],
+                    "last": "Moon",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "International Journal of Molecular Sciences",
+            "volume": "20",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/ijms20246256"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Mechanistic insights into the deleterious roles of Nasu-Hakola disease associated TREM2 variants",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Dash",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Choi",
+                    "suffix": ""
+                },
+                {
+                    "first": "I.-S",
+                    "middle": [],
+                    "last": "Moon",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Scientific Reports",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41598-020-60561-x"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Large-amplitude nonlinear motions in proteins",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Garc\u00eda",
+                    "suffix": ""
+                }
+            ],
+            "year": 1992,
+            "venue": "Physical Review Letters",
+            "volume": "68",
+            "issn": "17",
+            "pages": "2696--2699",
+            "other_ids": {
+                "DOI": [
+                    "10.1103/PhysRevLett.68.2696"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "The species Severe acute respiratory syndrome-related coronavirus: classifying 2019-nCoV and naming it SARS-CoV-2",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Gorbalenya",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Baker",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Baric",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "De Groot",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Drosten",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Gulyaeva",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Haagmans",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Lauber",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Leontovich",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Neuman",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Penzar",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Perlman",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "L M"
+                    ],
+                    "last": "Poon",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Samborskiy",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Sidorov",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Sola",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ziebuhr",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature Microbiology",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41564-020-0695-z"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Bio3d: an R package for the comparative analysis of protein structures",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Grant",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "P C"
+                    ],
+                    "last": "Rodrigues",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Elsawy",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Mccammon",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "S D"
+                    ],
+                    "last": "Caves",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Bioinformatics",
+            "volume": "",
+            "issn": "21",
+            "pages": "2695--2696",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/bioinformatics/btl461"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Conformational Dynamics of M2 Helices in KirBac Channels: Helix Flexibility in Relation to Gating via Molecular Dynamics Simulations",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Grottesi",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Domene",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Hall",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S P"
+                    ],
+                    "last": "Sansom",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Biochemistry",
+            "volume": "44",
+            "issn": "44",
+            "pages": "14586--14594",
+            "other_ids": {
+                "DOI": [
+                    "10.1021/bi0510429"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "In Silico discovery of novel inhibitors against main protease (M pro ) of SARS-CoV-2 using pharmacophore and molecular docking based virtual screening from ZINC database",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Haider",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Muneeb Subhani",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ansar Farooq",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ishaq",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Khalid",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Sohail Ahmad Khan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Khan Niazi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.20944/preprints202002.0431.v2"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Deciphering Molecular Mechanism of the Neuropharmacological Action of Fucosterol through Integrated System Pharmacology and In Silico Analysis",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hannan",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Dash",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "A M"
+                    ],
+                    "last": "Sohag",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Moon",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Marine Drugs",
+            "volume": "17",
+            "issn": "11",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Investigating protein dynamics in collective coordinate space",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kitao",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Go",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "Current Opinion in Structural Biology",
+            "volume": "9",
+            "issn": "2",
+            "pages": "80023--80025",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0959-440X(99"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "The effects of solvent on the conformation and the collective motions of protein: Normal mode analysis and molecular dynamics simulations of melittin in water and in vacuum",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kitao",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Hirata",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "G\u014d",
+                    "suffix": ""
+                }
+            ],
+            "year": 1991,
+            "venue": "Chemical Physics",
+            "volume": "158",
+            "issn": "2",
+            "pages": "87082--87089",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/0301-0104(91"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "COVID-19 related trajectory data of 10 microseconds all atom molecular dynamics simulation of SARS-CoV-2 dimeric main protease",
+            "authors": [
+                {
+                    "first": "Teruhisa",
+                    "middle": [
+                        "S ;"
+                    ],
+                    "last": "Komatsu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yohei",
+                    "middle": [
+                        "M ;"
+                    ],
+                    "last": "Koyama",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Okimoto",
+                    "suffix": ""
+                },
+                {
+                    "first": ";",
+                    "middle": [],
+                    "last": "Noriaki",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Morimoto",
+                    "suffix": ""
+                },
+                {
+                    "first": ";",
+                    "middle": [],
+                    "last": "Gentaro",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Ohno",
+                    "suffix": ""
+                },
+                {
+                    "first": ";",
+                    "middle": [],
+                    "last": "Yousuke",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Taiji",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.17632/VPPS4VHRYG.1COVID-19relatedtrajectorydataof10microsecondsallatommoleculardynamics.1.https:/doi.org/10.17632/VPPS4VHRYG.1"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "A comparative computational approach toward pharmacological chaperones (NN-DNJ and ambroxol) on N370S and L444P mutations causing Gaucher's disease",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Kumar",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Iyer",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Christy",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Siva",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Tayubi",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "G P"
+                    ],
+                    "last": "Doss",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zayed",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Advances in protein chemistry and structural biology",
+            "volume": "114",
+            "issn": "",
+            "pages": "315--339",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "A major outbreak of severe acute respiratory syndrome in Hong Kong",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Hui",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Cameron",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Joynt",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ahuja",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Yung",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Leung",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "To",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Lui",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Szeto",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Chung",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J Y"
+                    ],
+                    "last": "Sung",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "New England Journal of Medicine",
+            "volume": "348",
+            "issn": "20",
+            "pages": "1986--1994",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa030685"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Principal component analysis for protein folding dynamics",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Maisuradze",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Liwo",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Scheraga",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Journal of Molecular Biology",
+            "volume": "385",
+            "issn": "1",
+            "pages": "312--329",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jmb.2008.10.018"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Relation between free energy landscapes of proteins and dynamics",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Maisuradze",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Liwo",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Scheraga",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Journal of Chemical Theory and Computation",
+            "volume": "6",
+            "issn": "2",
+            "pages": "583--595",
+            "other_ids": {
+                "DOI": [
+                    "10.1021/ct9005745"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "The Molecular Biology of Coronaviruses",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Masters",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Advances in Virus Research",
+            "volume": "65",
+            "issn": "",
+            "pages": "66005--66008",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0065-3527(06"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Virtual screening, pharmacokinetics, molecular dynamics and binding free energy analysis for small natural molecules against cyclin-dependent kinase 5 for Alzheimer's disease",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Shukla",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Singh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Journal of Biomolecular Structure and Dynamics",
+            "volume": "0",
+            "issn": "0",
+            "pages": "1--15",
+            "other_ids": {
+                "DOI": [
+                    "10.1080/07391102.2019.1571947"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Molecular Dynamics Simulation Reveals Correlated Inter-Lobe Motion in Protein Lysine Methyltransferase SMYD2",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Spellmon",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Sirinupong",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Edwards",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "PLOS ONE",
+            "volume": "10",
+            "issn": "12",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pone.0145758"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Coronavirus Pathogenesis and the Emerging Pathogen Severe Acute Respiratory Syndrome Coronavirus",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Weiss",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Navas-Martin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Microbiology and Molecular Biology Reviews",
+            "volume": "69",
+            "issn": "4",
+            "pages": "635--664",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/mmbr.69.4.635-664.2005"
+                ]
+            }
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Situation reports",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "A new coronavirus associated with human respiratory disease in China",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Tao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Tian",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Pei",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Dai",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Zheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Holmes",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "579",
+            "issn": "7798",
+            "pages": "265--269",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41586-020-2008-3"
+                ]
+            }
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Electrostatic interaction-mediated conformational changes of adipocyte fatty acid binding protein probed by molecular dynamics simulation",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Yan",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Su",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Journal of Biomolecular Structure and Dynamics",
+            "volume": "0",
+            "issn": "0",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1080/07391102.2018.1520648"
+                ]
+            }
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Crystal structure of SARS-CoV-2 main protease provides a basis for design of improved \u03b1ketoamide inhibitors",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Curth",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Drosten",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Sauerhering",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Becker",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Rox",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Hilgenfeld",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science",
+            "volume": "",
+            "issn": "",
+            "pages": "1--9",
+            "other_ids": {
+                "DOI": [
+                    "10.1126/science.abb3405"
+                ]
+            }
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Lou",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Si",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Luo",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Di",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Shen",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "579",
+            "issn": "7798",
+            "pages": "270--273",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41586-020-2012-7"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Timeseries analysis of RMSD, RMSF, Rg, and SASA. The marked regions onto the corresponding figure indicate the significant change that occurred during the simulation. a) The marked black box defines the highly fluctuated conformer within the time. b) The marked regions had greater flexibility. c) Marked region defines conformational states having the highest and lowest compactness and rigidity. d) Marked region defines conformational states having higher and lower protein expansion. e) Circular regions indicate the changes occurred in different timesteps as illustrated.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "The left panel is the tube view of protease. The rectangular black shaped box marks the most flexible region. The right panel is the residual contribution to PC1.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Principle component analysis of Protease. Each dot denotes its conformation of the protein throughout the X and Y axis. The spread of blue and red color dots described the degree of conformational changes in the simulation, where the color spectrum from blue to white to red is equivalent to simulation time. The blue specifies initial timestep, white specifies intermediate, and final timestep is represented by red color.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Salt bridge interaction distance between GLU290 of A chain and ARG4 of B chain.",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "We would like to express our deepest gratitude and thanks to our creator, the simulation group for their dataset, and all those who've helped and supported us along the way.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgments"
+        },
+        {
+            "text": "The authors declare that they have no conflict of interest.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflict of Interest"
+        },
+        {
+            "text": "The authors received no funding from an external source.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Funding statement"
+        }
+    ]
+}
